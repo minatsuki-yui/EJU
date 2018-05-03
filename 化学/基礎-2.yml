@@ -1,4 +1,4 @@
-vol: 2
+vol: 02
 title: 物質量と化学反応式
 type: basics
 
@@ -14,6 +14,12 @@ type: basics
 質量パーセント濃度:
   desc: 溶质质量/溶液质量x100
   note: c = n/V= ω*ρ*1000/M
+
+モル濃度:
+  desc: mol/L
+
+質量モル濃度:
+  desc: mol/kg
 
 基本法則:
 

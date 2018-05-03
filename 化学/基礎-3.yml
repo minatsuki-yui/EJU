@@ -1,4 +1,4 @@
-vol: 3
+vol: 03
 title: 物質の変化
 type: basics
 
@@ -32,7 +32,7 @@ type: basics
 
 中和反応:
   desc: 酸 + 塩基 → 塩 + 水
-  note: a*c*v=b*c'*v'
+  note: a·c·v=b·c'·v'
 
 塩の分類:
   正塩: 没H、OH剩下的盐
@@ -56,7 +56,7 @@ PH指示剂:
   - ブロモチモールブルー: 
     en: bromothymol blue
     range: 黃 ← 6~8 → 青
-    
+
   - フェノールフタレイン: 
     en: phenolphthalein
     range: 無 ← 8~10 → 赤
