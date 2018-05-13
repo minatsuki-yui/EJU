@@ -1,0 +1,45 @@
+vol: 4
+title: 無機金屬
+type: main
+
+NaOH:
+  特徴: 潮解 溶解发热
+  制法:
+    industry: イオン交換膜
+
+NaCO3:
+  特徴: 風解
+  equation: 
+    - NaCO3·10H20 -> NaCO3·H20
+    - NaCO3 + H2O <-> NaHCO3 + NaOH
+    - NaCO3 + SiO2 -> NaSiO3 + CO2  ···Na2O·SiO2
+    - CaO + SiO2 -> CaSiO3 ···CaO·SiO2
+
+  note: 漫长 
+  usage: 玻璃、石碱 合成洗剤
+  制法:
+    industry: アンモニアソーダ法　(ソルベー法)
+    note: NaHCO3 为止 => ソルベー法
+
+NaHCO3:
+  desc: 重曹
+  usage: 入浴剤　ふくらし粉(ベーキングパウダー)　胃薬
+  equation:
+    - 2NaHCO3 -> Na2CO3 + CO2 + H2O
+    - NaHCO3 + HCl -> NaCl + CO2 + H2O
+
+アルカリ金属区別:
+  note: 
+    Be&Mg: 
+      - 不与水反应
+      - 无焰色反应
+      - 氧化物不溶于水
+      - 硫酸盐溶于水 
+      - 碳酸盐微溶于水
+
+Ca:
+  石膏: CaSO4·2H2O
+  焼き石膏: CaSO4·1/2H2O
+
+両性金属: 
+  desc: Al、Zn、Sn、Pb
