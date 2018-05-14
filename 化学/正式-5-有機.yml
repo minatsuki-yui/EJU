@@ -9,7 +9,7 @@ type: main
   case1:
     structure: R-OH (炭化水素)
     name: アルコール
-    example:　メタノール
+    example: メタノール
     property: 
       - 亲水
 
@@ -24,7 +24,7 @@ type: main
 アルデヒド:
   structure: R-CHO
   name: アルデヒド
-  example:　アセトアルデヒド
+  example: アセトアルデヒド
   property:
     - 还原性
     - 被酸化 => カルボキシ基
@@ -32,14 +32,14 @@ type: main
 ケトン:
   structure: R1-CO-R2
   name: ケトン
-  example:　アセトン
+  example: アセトン
   property:
     - 无还原性
 
 カルボキシ:
   structure: R1-COOH
   name: カルボン基
-  example:　酢酸
+  example: 酢酸
   property:
     - 亲水
     - 弱酸
@@ -47,7 +47,7 @@ type: main
 アミル:
   structure: R-NH2
   name: アミン
-  example:　アニリン
+  example: アニリン
   property:
     - 亲水
     - 弱塩基性
@@ -55,7 +55,7 @@ type: main
 スルホ:
   structure: R-SO3H
   name: スルホン酸
-  example:　ベンゼンスルホン酸
+  example: ベンゼンスルホン酸
   property:
     - 亲水
     - 强酸性
@@ -63,21 +63,21 @@ type: main
 エステル:
   structure: R1-COO-R2
   name: エステル
-  example:　酢酸エチル
+  example: 酢酸エチル
   property:
     - 疏水
 
 ニトロ:
   structure: R-NO2
   name: ニトロ化合物
-  example:　ニトロベンゼン
+  example: ニトロベンゼン
   property:
     - 疏水
 
 エーテル:
   structure: R1-O-R2
   name: エーテル
-  example:　ジエチルエーテル
+  example: ジエチルエーテル
   property:
     - 疏水
 
@@ -113,5 +113,6 @@ type: main
 フェーリング液:
   cn: 斐林试剂
   formula: Cu2+ -> Cu2O #アルデヒド -> カルボン酸
-  desc: |
-  斐林试剂（Fehling's reagent），也称斐林试液、菲林试剂，是一个常用的分析化学试剂。公元1849年由德国化学家赫尔曼·冯·斐林（Hermann von Fehling）制作出来。斐林试剂可以用来区分水溶性的醛及酮官能基，也可以用来测定单糖。
+  desc: 斐林试剂（Fehling's reagent）用来区分水溶性的醛及酮官能基，也可以用来测定单糖。
+
+

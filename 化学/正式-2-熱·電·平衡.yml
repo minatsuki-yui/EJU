@@ -3,11 +3,12 @@ title: 熱·電·平衡
 type: main
 
 電池の構成:
-  - ボルタ電池:      (-)Zn｜ H2SO4aq ｜ Cu (+)
-  - ダニエル電池:    (-)Zn | ZnSO4aq  | CuSO4aq｜ Cu(+)
-  - マンガン乾電池: （-)Zn ｜ NH4Claq ｜ MnO2,C（＋）
-  - 鉛蓄電池:       (-)Pb ｜ H2SO4aq ｜ PbO2(+)
-  - 燃料電池:       (-)H2 |  H3PO4aq | O2(+)
+  種類:
+    - ボルタ電池:      (-)Zn｜ H2SO4aq ｜ Cu (+)
+    - ダニエル電池:    (-)Zn | ZnSO4aq  | CuSO4aq｜ Cu(+)
+    - マンガン乾電池: （-)Zn ｜ NH4Claq ｜ MnO2,C（＋）
+    - 鉛蓄電池:       (-)Pb ｜ H2SO4aq ｜ PbO2(+)
+    - 燃料電池:       (-)H2 |  H3PO4aq | O2(+)
 
   note: 鉛蓄電池隨著使用兩極質量增加
 

@@ -62,6 +62,13 @@ PH指示剂:
     range: 無 ← 8~10 → 赤
 
 中和滴定:
+  note: 有刻度的的不能加熱
+
+  曲線:
+    S型: 强滴弱
+    平稳: 强滴强
+    note: 中和时HP偏向强酸\塩基一方
+
   器具:
     - メスフラスコ: 
       en: Messflasche && volumetric flask
@@ -70,16 +77,9 @@ PH指示剂:
       en: whole pipet
       note: 共洗い
 
-    - ビュレット:　
+    - ビュレット: 
       en: burette
       note: 共洗い
 
     - コニカルビーカー: 
       en: beaker
-
-  note: 有刻度的的不能加熱
-
-  曲線:
-    S型: 强滴弱
-    平稳: 强滴强
-    note: 中和时HP偏向强酸\塩基一方
