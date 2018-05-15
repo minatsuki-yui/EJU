@@ -11,20 +11,23 @@ class Generator(object):
         self.current_filename = ''
 
     def generate(self, dbname=''):
-        cwd = os.listdir(os.getcwd())
-        notebooks = sorted([each for each in cwd if each.endswith('yml')])
+        files = os.listdir(os.getcwd())
+        notebooks = sorted([file for file in files if file.endswith('yml')])
         print('work on these files:\n')
         # print(notebooks)
         try:
             [self.handle_file(notebook) for notebook in notebooks]
         except ReaderError:
-            print(self.current_filename)
+            print('error on: ', self.current_filename)
             raise
-        finally:
-            pass
+            # finally:
+            #    pass
             # print(self.all_notes)
         if not dbname:
-            self.write_out(self.default_dbname + '.json')
+            output_db = self.default_dbname
+        else:
+            output_db = dbname
+        self.write_out(output_db + '.json')
 
         print('\nfinished')
 
