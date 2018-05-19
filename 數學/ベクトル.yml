@@ -1,0 +1,18 @@
+vol: 6
+title: ベクトル
+type: main
+
+ベクトル:
+  平面:
+
+    ①基础:
+      - vec(a)·vec(a) = |vec(a)|^2·cosθ
+      - vec(a) // vec(b) <=> vec(a)=k·vec(b)
+    ②多項式: 写成平方形式
+    ③定比分点: 
+      - 内分点
+      - 外分点
+      - 共线
+  空间:
+    note: 和平面一致
+    四点共面: vec(OA) = s·vec(OB)+t·vec(OC)+(1-s-t)·vec(OD)

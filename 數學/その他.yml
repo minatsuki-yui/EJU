@@ -1,0 +1,9 @@
+vol: x
+title: math
+type: appendix
+
+十分必要条件:
+  question: P:... Q:... => (十分/不十分)(必要/不必要)条件
+  step1: P=>Q ? 十分:不十分
+  step2: Q=>P ? 必要:不必要
+  answer: step1 + step2 + 条件
