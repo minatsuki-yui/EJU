@@ -2,22 +2,31 @@ vol: 5
 title: 有機
 type: main
 
+ウェーラー:
+  note: Pb(OCN)2 + 2NH3 + 2H2O -> NH4OCN -> CO(NH2)2 人类首次从无机物合成有机物
+
+分子构造:
+  飽和炭原子: 四面体形
+  二重结合: 平面构造 同平面最少6个
+  三重结合: 直线构造 同平面最少4个
+  ベンゼン環:　平面构造 同平面最少12个
+
 ヒドロキシ基:
-  
+
   desc: R-OH
 
   case1:
     structure: R-OH (炭化水素)
     name: アルコール
     example: メタノール
-    property: 
+    property:
       - 亲水
 
   case2:
     structure: R-OH (ベンゼン環)
     name: フェノール類
     example: フェノール
-    property: 
+    property:
       - 不溶于水
       - 弱酸
 
@@ -81,33 +90,46 @@ type: main
   property:
     - 疏水
 
-メタン:
-  制法:
-    lab: CH3COONa + NaOH -> CH4 + Na2CO3 ···固体加热
-    note: 水上置换 试管向下使气体充满 防止爆炸
-
 アルカン:
   structure: CnH2n+2
+  note: シクロアルカン => 不饱和度为1的饱和物质
+  production:
+    - メタン:
+      lab: CH3COONa + NaOH -> CH4 + Na2CO3 ···固体加热
+      note: 水上置换 试管向下使气体充满 防止爆炸
+  property:
+    置換:
+      - Br2:
+        formula: Br2 + C6H14 -> C6H13Br + HBr ···光照 振动
+        note: 使溶于ヘキセン的Br2褪色
+        inspection: NH3 ···白煙
 
 アルケン:
   structure: CnH2n
+  production:
+    - エチレン: C2H5OH -> C2H4 + H2O ···浓硫酸 170°C
   property:
-    附加: 
+    附加:
       - H2: 触媒Pt
       - H2O: CH3CH2OH
       - Br2: CH2BrCH2Br
+    酸化:
+      - KMnO4: 赤紫色溶液 -> 黑色沉淀
 
 アルキン:
   structure: CnH2n-2
   note: Br2水的脱水反应 => 不飽和結合的検出
+  production:
+    - アセチレン: CaC2 + H2O -> C2H2 + Ca(OH)2　···CaC2: カーバイド
   property:
-    附加: 
+    附加:
       - H2: 触媒Pt
       - Br2: CHBr=CHBr
       - H2O: CH2=CHOH(ビニルアルコール) -> CH3CHO (异构化反应)···HgSO4 aq
       - HCl: CH2=CHCl
-      - HCN: CH2=CHCN
+      - HCN: CH2=CHCN アクリロニトリル
       - CH3COOH: CH2=CHOCOCH3
+    マルコフニコフ則: 二重结合附加 HX形状的分子时 H多的一遍附加H 少的一遍附加X
     3分子重合: 唯一可以生成ベンゼン ···Fe
 
 フェーリング液:
@@ -115,4 +137,100 @@ type: main
   formula: Cu2+ -> Cu2O #アルデヒド -> カルボン酸
   desc: 斐林试剂（Fehling's reagent）用来区分水溶性的醛及酮官能基，也可以用来测定单糖。
 
+異性体:
+  構造異性体:
 
+  立体異性体:
+    幾何異性体::
+      シス·トランス異性体: 二重结合不能旋转
+    光学異性体:
+      鏡像異性体: 不斉(ふせい)炭素元素
+
+アルコール:
+  価数: OH数量
+  級: R数量
+  αβ炭: OH相连的是α 远一个位置的是β => C(β)-C(α)-OH
+  反応:
+    inspection: 2R-OH +2Na ->  2R-OHNa + H2
+    脱水:
+      CH3CH2OH:
+         catalyst: 濃H2SO4
+         130~140: CH3CH2OCH2CH3
+         160~170: CH2=CH2
+
+  property:
+    - 易溶於水
+    - 不電離 -> 中性
+  メタノール:
+    - 無色
+    - 毒性 -> ギ酸
+  エターナル:
+    - 葡萄糖发酵
+    - 消毒剂
+
+  エーテル:
+    property:
+      - 易燃易爆
+      - 麻醉性
+      - 不与Na反应
+
+  カルボニル基:
+    アルデヒド:
+      production: 一级アルコール酸化
+      反応:
+        - 銀鏡反応: R-CHO 1:2 || H-CHO 1:4
+        - フェーリング液: Cu2O 赤色沉淀
+      ホルムアルデヒド:
+        - 37% -> ホルマリン
+      アセトアルデヒド:
+        - 無色刺激臭
+        - 悪酔い
+    ケトン:
+      production: 二级アルコール酸化
+      アセント:
+        production: クメン法副產物
+    ヨードホルム反応:
+      desc: I2 + NaOH aq -> CHI3
+      note: 特殊臭气 黄色沉淀 检出CH3CRHOH or CH3COR
+
+カルボン酸:
+  desc: 含有-OH 数量 n->n価カルボン酸
+  property:
+    - 弱酸
+    - 形成二量体
+    - 酸無水物 ···唯一不需要濃H2SO4
+    - C数量 > 15 高级脂肪酸
+  ギ酸:
+    property:
+      - 刺激臭
+      - 強酸
+      - 同時含有-COOH 和 -CHO
+      - 濃H2SO4 脫水生成 CO
+  酢酸: 氷酢酸
+  マレイン酸とフマル酸: シストランス　フマル酸熔点高
+
+エステル:
+  desc: カルボン酸有-O　アルコール-COOH 脱水 ···濃H2SO4
+  反応:
+    グリセリン + 3HNO3　-> ニトログリセリン + 3H2O ···混酸 加热
+  property:
+    - +H+ 加水分解
+    - +塩基 けん化
+
+油脂:
+  desc: 高级脂肪酸 グリセリン エステル結合
+  solid: 动物性  飽和
+  aq: 植物性 不飽和 -> +H2 附加 硬化油
+
+せっけん:
+  property:
+    - 弱塩基性
+    - 硬水生成沉淀
+合成洗剤:
+  property:
+    - 中性
+    - 硬水不沉淀
+    - 难分解
+
+不安定:
+  - C=C双键 连接 OH
