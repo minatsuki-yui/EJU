@@ -124,7 +124,7 @@ type: main
     附加:
       - H2: 触媒Pt
       - Br2: CHBr=CHBr
-      - H2O: CH2=CHOH(ビニルアルコール) -> CH3CHO (异构化反应)···HgSO4 aq
+      - H2O: CH2=CHOH(ビニルアルコール) -> CH3CHO (アセトアルデヒド)(异构化反应)···HgSO4 aq
       - HCl: CH2=CHCl
       - HCN: CH2=CHCN アクリロニトリル
       - CH3COOH: CH2=CHOCOCH3

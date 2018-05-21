@@ -5,6 +5,7 @@ materials and notes for EJU
 - 中日英混合
 
 ```
+.
 ├── LICENSE
 ├── README.md
 ├── useful_websites.yml
@@ -25,12 +26,13 @@ materials and notes for EJU
 │   ├── 確率.yml
 │   └── 题型.yml
 ├── 日語
-│   └── 「文章が変わる、接続語の使い方」
-│       ├── 第１章-连接.yml
-│       ├── 第２章-分类.yml
-│       ├── 第３章-仮定.yml
-│       └── 第４章-帰結.yml
+│   ├── 「文章が変わる、接続語の使い方」
+│   │   ├── 第１章-连接.yml
+│   │   ├── 第２章-分类.yml
+│   │   ├── 第３章-仮定.yml
+│   │   └── 第４章-帰結.yml
+│   └── 記述.yml
 └── 物理
 
-5 directories, 21 files
+5 directories, 22 files
 ```
