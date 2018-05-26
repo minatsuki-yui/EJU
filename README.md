@@ -8,9 +8,9 @@ materials and notes for EJU
 
 ### About update summary's  rule
 
-> from May 26 2018
+> from May 27 2018
 
-`update-XX(subject)-XXX(details)`
+`update XX(subject)-XXX(details)`
 
 | profix | meaning |
 | --- |---|
