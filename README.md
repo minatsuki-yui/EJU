@@ -4,10 +4,32 @@ materials and notes for EJU
 - 個人向け
 - 中日英混合
 
+---
+
+### About update summary's  rule
+
+> from May 26 2018
+
+`update-XX(subject)-XXX(details)`
+
+| profix | meaning |
+| --- |---|
+| jp | 日本語 |  
+| c | 化学 |
+| p | 物理 |
+| m | 数学 |
+| w | スクリプト |
+| o | その他 |
+
+---
+
+Directory Structure
+
 ```
 .
 ├── LICENSE
 ├── README.md
+├── build
 ├── useful_websites.yml
 ├── 化学
 │   ├── generator.py
@@ -19,7 +41,8 @@ materials and notes for EJU
 │   ├── 正式-2-熱·電·平衡.yml
 │   ├── 正式-3-無機非金屬.yml
 │   ├── 正式-4-無機金屬.yml
-│   └── 正式-5-有機.yml
+│   ├── 正式-5-有機.yml
+│   └── 正式-6-高分子.yml
 ├── 數學
 │   ├── その他.yml
 │   ├── ベクトル.yml
@@ -34,5 +57,5 @@ materials and notes for EJU
 │   └── 記述.yml
 └── 物理
 
-5 directories, 22 files
+6 directories, 23 files
 ```
