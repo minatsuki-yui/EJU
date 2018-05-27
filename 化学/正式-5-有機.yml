@@ -149,8 +149,8 @@ type: main
   価数: OH数量
   級: R数量
   αβ炭: OH相连的是α 远一个位置的是β => C(β)-C(α)-OH
-  反応:
-    inspection: 2R-OH +2Na ->  2R-OHNa + H2
+  inspection: 2R-OH +2Na ->  2R-OHNa + H2
+  equation:
     脱水:
       CH3CH2OH:
          catalyst: 濃H2SO4

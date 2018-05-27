@@ -17,7 +17,7 @@ type: main
    リッチ-に貸そう-か-な？-ま-あ-あ-て-に-すん-な-ひ-ど-す-ぎる-借-金
    Li-K-Ca-Na-Mg-Al-Zn-Fe-Ni-Sn-Pb-(H2)-CU-Hg-Ag-Pt-Au
 
-不動態: 
+不動態:
   desc: 鈍化
   note: Al Fe Ni
 
@@ -27,18 +27,18 @@ type: main
 電気分解:
   note: 如果容易是希H2SO4 或者NaOH 这些 相当于电解水
 
-放電順番: 
+放電順番:
   陽極: イオン化傾向相反
   陰極: イオン化傾向相反
 
-ファラデー定数: 
+ファラデー定数:
   desc: F = 96500 C/mol
   note: Q = I·t = F·n(mol)
 
 結合エネルギー:
   desc: 切断 1mol 气体物质内 共有结合 生成原子需要的热量
 
-ヘスの法則: 
+ヘスの法則:
   desc: 総熱量保存の法則
   note: |
         Q = 反应物总化学能 - 生应物总化学能
@@ -66,5 +66,4 @@ type: main
 
 # 以下标记由 AnBm <--> nA + mB 为例
 
-溶解平衡:
-  desc: Ksp = K[固体] = k[A+]^n·[B+]^m
+溶解平衡: Ksp = K[固体] = k[A+]^n·[B+]^m
