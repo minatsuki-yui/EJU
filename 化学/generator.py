@@ -46,7 +46,7 @@ class Generator(object):
         self.all_notes['title'] = self.default_dbname
         self.all_notes['vol'] = '＄'
         with open(dbname, 'w') as db:
-            json.dump(self.all_notes, db, ensure_ascii=False)
+            json.dump(self.all_notes, db, ensure_ascii=False, indent=2)
 
 
 if __name__ == '__main__':
