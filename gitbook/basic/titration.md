@@ -1,6 +1,3 @@
-meta:
-  title: 中和滴定
-  type: basics
 
 中和滴定:
   note: 有刻度的的不能加熱

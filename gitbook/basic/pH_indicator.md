@@ -1,6 +1,3 @@
-meta:
-  title: PH指示剂
-  type: basics
 
 PH指示剂:
   - メチルオレンジ:
