@@ -1,7 +1,29 @@
+import reader
+
 class Concepts(object):
     def __init__(self):
         self.description = ''
         self.note = ''
+
+
+class Equation(object):
+    def __init__(self, eq):
+        self.name = ''
+        self.reactants = []
+        self.products = []
+        self.conditions = ''
+        self.phenomenon = ''
+        self.notice = ''
+        self.__merge(reader.read(eq))
+
+    def __merge(self, eq_obj):
+        self.name = eq_obj.get('name')
+        self.reactants = eq_obj.get('reactants')
+        self.products = eq_obj.get('products')
+        self.conditions = eq_obj.get('conditions')
+        self.phenomenon = eq_obj.get('phenomenon')
+        self.notice = eq_obj.get('notice')
+
 
 
 class Chemicals(Concepts):
@@ -19,8 +41,8 @@ class Chemicals(Concepts):
 
 class ProductionMethods(object):
     def __init__(self, method):
-        self.lab = method.get('lab')
-        self.indusry = method.get('indusry')
+        self.lab = Equation(method.get('lab'))
+        self.indusry = Equation(method.get('indusry'))
 
 
 if __name__ == '__main__':
@@ -29,9 +51,14 @@ if __name__ == '__main__':
         'formula': 'NH3',
         'production': {
             'lab': '2NH4Cl + Ca(OH)2 -> 2NH3 + CaCl2 + 2H2O',
-            'indusry': 'N2 + 3H2 -> 2NH3 ···Fe3O4'
+            'indusry': {
+                'equation': 'N2 + 3H2 -> 2NH3 ···Fe3O4 400–600°C 200–1000 atm',
+                'notice': '放熱反應',
+                'name': 'ハーバー・ボッシュ法'
+            }
         }
     }
 
-    n = Chemicals(NH3)
-    print(n.production_methods.lab)
+    nh3 = Chemicals(NH3)
+    print(nh3.production_methods.indusry.reactants)
+

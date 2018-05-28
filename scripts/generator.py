@@ -2,6 +2,7 @@ import os
 import yaml
 import json
 from yaml.reader import ReaderError
+import reader
 
 
 class Generator(object):
@@ -10,8 +11,9 @@ class Generator(object):
         self.default_dbname = 'まとめ'
         self.current_filename = ''
 
-    def generate(self, dbname=''):
-        files = os.listdir(os.getcwd())
+    def generate(self, root, dbname=''):
+        files = os.listdir(root)
+        os.chdir(root)
         notebooks = sorted([file for file in files if file.endswith('yml')])
         print('work on these files:\n')
         # print(notebooks)
@@ -39,16 +41,18 @@ class Generator(object):
         # print(content)
         for each in content:
             self.all_notes[each] = content[each]
-
         del content
 
     def write_out(self, dbname):
-        self.all_notes['title'] = self.default_dbname
-        self.all_notes['vol'] = '＄'
+        # self.all_notes['title'] = self.default_dbname
+        # self.all_notes['vol'] = '＄'
+        self.all_notes.pop('meta')
+        r = reader.Reader(self.all_notes)
+        r.make_glossary()
         with open(dbname, 'w') as db:
             json.dump(self.all_notes, db, ensure_ascii=False, indent=2)
 
 
 if __name__ == '__main__':
     g = Generator()
-    g.generate()
+    g.generate(root='../化学')

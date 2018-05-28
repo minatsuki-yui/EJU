@@ -22,8 +22,10 @@ Ar:
 
 ハロゲンの酸化合物:
   HCl:
-    production: 浓硫酸 固体Nacl 加热
-    inspection: NH3 + HCl -> NH4Cl 白烟
+    production: H2SO4 + NaCl -> 2Na2SO4 + 2HCl ···浓硫酸 加热
+    inspection:
+      equation: NH3 + HCl -> NH4Cl
+      phenomenon: 白烟
 
   HF:
     production: 浓硫酸 蛍石CaF2 加热
@@ -50,7 +52,8 @@ Ar:
   note: 非塩基性、酸性、両性酸化物 => CO,NO
 
 S:
-  equation: H2S + SO2 -> 2H2O + 3S(白濁)
+  equation: H2S + SO2 -> 2H2O + 3S
+  phenomenon: 白濁
   SO2:
     desc: 無色 刺激臭 漂白作用
     property:
@@ -90,8 +93,14 @@ N:
     equation: 6H2O + P4O10 -> 4H3PO4
 
 ケイ素:
-  水ガラス: ケイ酸ナトリウム 加水加热 粘性 粘着剂
-  シリカゲル: ゲル状ケイ酸加热脱水
+  水ガラス:
+    production: ケイ酸ナトリウム 加水加热
+    property:
+      - 粘性
+    usage:
+      - 粘着剂
+  シリカゲル:
+    production: ゲル状ケイ酸加热脱水
 
 C:
   CO:

@@ -1,6 +1,7 @@
-vol: 03
-title: 物質の変化
-type: basics
+meta:
+  vol: 03
+  title: 物質の変化
+  type: basics
 
 酸·塩基の性質:
   酸:
