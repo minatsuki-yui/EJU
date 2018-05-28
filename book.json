@@ -1,3 +1,7 @@
 {
-    "root": "./gitbook"
+    "root": "./gitbook",
+    "author": "yue",
+    "theme-default": {
+            "showLevel": true
+        }
 }

@@ -1,0 +1,54 @@
+meta:
+  title: 炭化水素
+  type: main
+
+アルカン:
+  structure: CnH2n+2
+  note: シクロアルカン => 不饱和度为1的饱和物质
+  production:
+    - メタン:
+      lab: CH3COONa + NaOH -> CH4 + Na2CO3 ···固体加热
+      note: 水上置换 试管向下使气体充满 防止爆炸
+  property:
+    置換:
+      - Br2:
+        formula: Br2 + C6H14 -> C6H13Br + HBr ···光照 振动
+        note: 使溶于ヘキセン的Br2褪色
+        inspection: NH3 ···白煙
+
+アルケン:
+  structure: CnH2n
+  production:
+    - エチレン: C2H5OH -> C2H4 + H2O ···浓硫酸 170°C
+  property:
+    附加:
+      - H2: 触媒Pt
+      - H2O: CH3CH2OH
+      - Br2: CH2BrCH2Br
+    酸化:
+      - KMnO4: 赤紫色溶液 -> 黑色沉淀
+
+アルキン:
+  structure: CnH2n-2
+  note: Br2水的脱水反应 => 不飽和結合的検出
+  production:
+    - アセチレン: CaC2 + H2O -> C2H2 + Ca(OH)2 ···CaC2=カーバイド
+  property:
+    附加:
+      - H2: 触媒Pt
+      - Br2: CHBr=CHBr
+      - H2O: CH2=CHOH(ビニルアルコール) -> CH3CHO (アセトアルデヒド)(异构化反应)···HgSO4 aq
+      - HCl: CH2=CHCl
+      - HCN: CH2=CHCN アクリロニトリル
+      - CH3COOH: CH2=CHOCOCH3
+    マルコフニコフ則: 二重结合附加 HX形状的分子时 H多的一遍附加H 少的一遍附加X
+    3分子重合: 唯一可以生成ベンゼン ···Fe
+
+異性体:
+  構造異性体:
+
+  立体異性体:
+    幾何異性体::
+      シス·トランス異性体: 二重结合不能旋转
+    光学異性体:
+      鏡像異性体: 不斉(ふせい)炭素元素
