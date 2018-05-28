@@ -1,0 +1,87 @@
+
+ウェーラー:
+  note: Pb(OCN)2 + 2NH3 + 2H2O -> NH4OCN -> CO(NH2)2 人类首次从无机物合成有机物
+
+分子构造:
+  飽和炭原子: 四面体形
+  二重结合: 平面构造 同平面最少6个
+  三重结合: 直线构造 同平面最少4个
+  ベンゼン環: 平面构造 同平面最少12个
+
+ヒドロキシ基:
+  desc: R-OH
+
+  case1:
+    structure: R-OH (炭化水素)
+    name: アルコール
+    example: メタノール
+    property:
+      - 亲水
+
+  case2:
+    structure: R-OH (ベンゼン環)
+    name: フェノール類
+    example: フェノール
+    property:
+      - 不溶于水
+      - 弱酸
+
+アルデヒド:
+  structure: R-CHO
+  name: アルデヒド
+  example: アセトアルデヒド
+  property:
+    - 还原性
+    - 被酸化 => カルボキシ基
+
+ケトン:
+  structure: R1-CO-R2
+  name: ケトン
+  example: アセトン
+  property:
+    - 无还原性
+
+カルボキシ:
+  structure: R1-COOH
+  name: カルボン基
+  example: 酢酸
+  property:
+    - 亲水
+    - 弱酸
+
+アミル:
+  structure: R-NH2
+  name: アミン
+  example: アニリン
+  property:
+    - 亲水
+    - 弱塩基性
+
+スルホ:
+  structure: R-SO3H
+  name: スルホン酸
+  example: ベンゼンスルホン酸
+  property:
+    - 亲水
+    - 强酸性
+
+エステル:
+  structure: R1-COO-R2
+  name: エステル
+  example: 酢酸エチル
+  property:
+    - 疏水
+
+ニトロ:
+  structure: R-NO2
+  name: ニトロ化合物
+  example: ニトロベンゼン
+  property:
+    - 疏水
+
+エーテル:
+  structure: R1-O-R2
+  name: エーテル
+  example: ジエチルエーテル
+  property:
+    - 疏水
