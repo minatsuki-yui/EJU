@@ -3,7 +3,7 @@ meta:
   type: main
 
 蒸気圧降下: &1
-  desc: Δt = kmN
+  calculation: Δt = kmN
   note: 溶解的分子/离子越多 Δt越大
 
 モル沸点上昇: *1
@@ -11,4 +11,7 @@ meta:
 モル凝固点降下: *1
 
 浸透圧:
-  ファントホッフの法則: ∏·V = n·R·T ; ∏ = c·R·T
+  ファントホッフの法則:
+    calculation:
+      - ∏·V = n·R·T
+      - ∏ = c·R·T

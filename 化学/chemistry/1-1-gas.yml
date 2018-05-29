@@ -8,13 +8,21 @@ meta:
 
 気体の性質:
 
-  ボイル:  PV = k
-  シャルル: V = kT
-  ボイル&シャルル: PV/T = k
-  ドルトンの分圧法則: 分压比 Pa 等于 物质的量 mol比
+  ボイル:
+    calculation: PV = k
+  シャルル:
+    calculation: V = kT
+  ボイル&シャルル:
+    calculation: PV/T = k
+
+  ドルトンの分圧法則:
+    desc: 分压比 Pa 等于 物质的量 mol比
+    calculation: P ∝ mol
 
   note: 计算気体比例 → 十字交叉法
 
 気体溶けやすさ: T↓Pa↑ => n↑
 
-ヘンリーの法則: 温度一定时 气体压强与溶解度成正比 Pa ∝ n mol
+ヘンリーの法則:
+  desc: 温度一定时 气体压强与溶解度成正比
+  calculation: Pa ∝ n

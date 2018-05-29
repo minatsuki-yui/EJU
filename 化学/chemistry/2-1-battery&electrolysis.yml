@@ -4,11 +4,11 @@ meta:
 
 電池の構成:
   種類:
-    - ボルタ電池:      (-)Zn｜ H2SO4aq ｜ Cu (+)
-    - ダニエル電池:    (-)Zn | ZnSO4aq  | CuSO4aq｜ Cu(+)
-    - マンガン乾電池: （-)Zn ｜ NH4Claq ｜ MnO2,C（＋）
-    - 鉛蓄電池:       (-)Pb ｜ H2SO4aq ｜ PbO2(+)
-    - 燃料電池:       (-)H2 |  H3PO4aq | O2(+)
+    - ボルタ電池:      (-)Zn｜ H2SO4 aq ｜ Cu (+)
+    - ダニエル電池:    (-)Zn | ZnSO4 aq  | CuSO4aq｜ Cu(+)
+    - マンガン乾電池: （-)Zn ｜ NH4Cl aq ｜ MnO2,C（＋）
+    - 鉛蓄電池:       (-)Pb ｜ H2SO4 aq ｜ PbO2(+)
+    - 燃料電池:       (-)H2 |  H3PO4 aq | O2(+)
 
   note: 鉛蓄電池隨著使用兩極質量增加
 
@@ -19,7 +19,10 @@ meta:
 
 不動態:
   desc: 鈍化
-  note: Al Fe Ni
+  have:
+    - Al
+    - Fe
+    - Ni
 
 融解塩電解:
   desc: 電氣分解比Al3+イオン化傾向大的金屬的塩或酸化物 生成単体
@@ -33,4 +36,4 @@ meta:
 
 ファラデー定数:
   desc: F = 96500 C/mol
-  note: Q = I·t = F·n(mol)
+  calculation: Q = I·t = F·n

@@ -11,7 +11,7 @@ meta:
 
 質量パーセント濃度:
   desc: 溶质质量/溶液质量x100
-  note: c = n/V= ω*ρ*1000/M
+  calculation: c = n/V = ω*ρ*1000/M
 
 モル濃度: mol/L
 
