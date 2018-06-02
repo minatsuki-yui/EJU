@@ -2,11 +2,24 @@ meta:
   title: 無機非金屬-1
   type: main
 
-水素:
+H2:
   note: 宇宙中最多(地球O2)
+  production:
+    lab:
+      equation: Zn + H2SO4 -> ZnSO4 + H2
+  equation: H2 + CuO -> H2O + Cu
+
+Cl2:
+  production:
+    lab:
+      equation: MnO2 + 4HCl -> MnCl2 + 2H2O + Cl2
+  equation:
+      - NaBr + 2Cl2 -> 2HCl +Br2
+      - H2O + Cl2 -> HCl + HClO
 
 CaCl2:
   note: 不能用于干燥NH3 会生成 CaCl2·8NH3
+  equation: CaCl2 + 8NH3 -> CaCl2·8NH3
 
 シリカゲル:
   formula: SiO2·H2O
@@ -24,24 +37,32 @@ Ar:
 
 ハロゲンの酸化合物:
   HCl:
-    production: H2SO4 + NaCl -> 2Na2SO4 + 2HCl ···浓硫酸 加热
+    production:
+      lab: H2SO4 + NaCl -> 2Na2SO4 + 2HCl ···浓硫酸 固体 加热
     inspection:
       equations: NH3 + HCl -> NH4Cl
       phenomenon: 白烟
 
   HF:
-    production: 浓硫酸 蛍石 加热
+    production:
+      lab:
+        equation: H2SO4 + CaF2 -> 2HF + Na2SO4 ···浓硫酸 蛍石 加热
     equations:
-      - H2SO4 + CaF2 -> 2HF + Na2SO4
       - SiO2 + 6HF -> H2SiF6 + 2H2O
       - H2SiF6 -> SiF4 +2HF
 
 さらし粉:
   formula: Ca(ClO)Cl·H2O
   production: Ca(OH)2 + Cl2 -> Ca(ClO)Cl·H2O
+  equation: Ca(ClO)Cl·H2O + 2HCl -> CaCl2 + 2H2O + Cl2
 
 高度さらし粉:
   formula: Ca(ClO)2
 
 ハロゲンの酸:
   note: 元素↑ => 非金属↑ => 对H吸引力 => 电离度↑ => 酸性↑
+
+equations:
+  - 2NaI + 2Br -> 2HBr + I2
+  - 2H2O + 2F2 -> 4HF + O2
+  - H2O + Br2 -> HBr + HBrO

@@ -42,7 +42,7 @@ class Chemicals(Concepts):
 class ProductionMethods(object):
     def __init__(self, method):
         self.lab = Equation(method.get('lab'))
-        self.indusry = Equation(method.get('indusry'))
+        self.industry = Equation(method.get('industry'))
 
 
 if __name__ == '__main__':
@@ -51,7 +51,7 @@ if __name__ == '__main__':
         'formula': 'NH3',
         'production': {
             'lab': '2NH4Cl + Ca(OH)2 -> 2NH3 + CaCl2 + 2H2O',
-            'indusry': {
+            'industry': {
                 'equation': 'N2 + 3H2 -> 2NH3 ···Fe3O4 400–600°C 200–1000 atm',
                 'notice': '放熱反應',
                 'name': 'ハーバー・ボッシュ法'
@@ -60,5 +60,5 @@ if __name__ == '__main__':
     }
 
     nh3 = Chemicals(NH3)
-    print(nh3.production_methods.indusry.reactants)
+    print(nh3.production_methods.industry.reactants)
 

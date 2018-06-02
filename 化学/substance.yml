@@ -1,0 +1,94 @@
+水素:
+  formula: H2
+
+水:
+  formula: H2O
+
+窒素:
+  formula: N2
+
+酸素:
+  formula: O2
+
+塩素:
+  formula: Cl2
+
+臭素:
+  formula: Br2
+
+フッ素:
+  formula: F2s
+
+フッ化水素:
+  formula: HF
+
+塩化ナトリウム:
+  formula: NaCl
+
+酢酸:
+  formula: CH3COOH
+  property:
+    - 弱酸
+
+二酸化炭素:
+  formula: CO2
+
+アンモニア:
+  formula: NH3
+  property:
+    - 弱塩基
+
+エチレン:
+  formula: CH2=CH2
+
+メタン:
+  formula: CH4
+
+ダイヤモンド:
+  property: 立体网状结构
+  formula: C
+  bond: 共有結合
+
+黒鉛:
+  formula: C
+  bond: 共有結合
+
+四塩化炭素:
+  formula: CCl4
+  structure: 正四面体形
+
+硫酸:
+  formula: H2SO4
+
+塩化水素:
+  formula: HCl
+
+硝酸:
+  formula: HNO3
+
+炭酸:
+  formula: H2CO3
+  property:
+    - 弱酸
+
+シュウ酸:
+  formula: (COOH)2
+  property:
+    - 弱酸
+
+硫化水素:
+  formula: H2S
+
+リン酸:
+  formula: H3PO4
+  property:
+    - 弱酸
+
+水酸化鉄(Ⅱ):
+  formula: Fe(OH)2
+
+水酸化鉄(Ⅲ):
+  formula: Fe(OH)3
+
+水酸化カルシウム:
+  formula: Ca(OH)2

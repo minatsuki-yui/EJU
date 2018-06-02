@@ -2,7 +2,7 @@ symbols:
 
   all: ['H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne', 'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'Ar', 'K', 'Ca', 'Sc', 'Ti', 'V', 'Cr', 'Mn', 'Fe', 'Co', 'Ni', 'Cu', 'Zn', 'Ga', 'Ge', 'As', 'Se', 'Br', 'Kr', 'Rb', 'Sr', 'Y', 'Zr', 'Nb', 'Mo', 'Tc', 'Ru', 'Rh', 'Pd', 'Ag', 'Cd', 'In', 'Sn', 'Sb', 'Te', 'I', 'Xe', 'Cs', 'Ba', 'La', 'Ce', 'Pr', 'Nd', 'Pm', 'Sm', 'Eu', 'Gd', 'Tb', 'Dy', 'Ho', 'Er', 'Tm', 'Yb', 'Lu', 'Hf', 'Ta', 'W', 'Re', 'Os', 'Ir', 'Pt', 'Au', 'Hg', 'Tl', 'Pb', 'Bi', 'Po', 'At', 'Rn', 'Fr', 'Ra', 'Ac', 'Th', 'Pa', 'U', 'Np', 'Pu', 'Am', 'Cm', 'Bk', 'Cf', 'Es', 'Fm', 'Md', 'No', 'Lr', 'Rf', 'Db', 'Sg', 'Bh', 'Hs', 'Mt', 'Ds', 'Rg', 'Cn', 'Nh', 'Fl', 'Mc', 'Lv', 'Ts', 'Og']
 
-  common: ['H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne', 'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'Ar', 'K', 'Ca','V', 'Cr', 'Mn', 'Fe', 'Co', 'Ni', 'Cu', 'Zn', 'Br', 'Pd', 'Ag', 'Cd', 'Sn', 'I', 'Ba', 'Pt', 'Au', 'Hg', 'Pb']
+  common: ['H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne', 'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'Ar', 'K', 'Ca','V', 'Cr', 'Mn', 'Fe', 'Ni', 'Cu', 'Zn', 'Br', 'Sr', 'Pd', 'Ag', 'Cd', 'Sn', 'I', 'Cs', 'Ba', 'Pt', 'Au', 'Hg', 'Pb']
 
 colors:
   - 赤
@@ -21,25 +21,26 @@ shape:
   - 直線形
 
 predefine:
-  - desc
-  - formula
-  - property
-  - equation
-  - calculation
-  - phenomenon
-  - production
-  - note
-  - is
-  - max
-  - have
-  - lab
-  - industry
-  - usage
-  - alias
-  - structure
-  - example
-  - bond
-  - monomer
+  - desc: 定义
+  - formula: 化学式
+  - property: 性质
+  - equation: 反应方程
+  - calculation: 计算公式
+  - phenomenon: 现象
+  - production: 产物
+  - note: 笔记
+  - is: 包括
+  - max: 最大的是
+  - have: 有此现象的
+  - lab: 实验室制法
+  - industry: 工业制法
+  - usage: 用途
+  - alias: 别名
+  - structure: 结构
+  - example: 例子
+  - bond: 结合
+  - monomer: 単量体
+  - allotrope: 同素异形体
 
 in_string_predefine:
   - is:

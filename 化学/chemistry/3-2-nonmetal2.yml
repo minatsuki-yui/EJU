@@ -3,24 +3,49 @@ meta:
   type: main
 
 酸素:
-  O3:
-    inspection: 2KI + O3 +H2O -> I2 + 2KOH + O2
-    note: ヨウ化カリウムデンプン紙
+  production:
+    lab:
+      equations:
+        - 2H2O2 -> O2 + 2H2O ···MnO2
+        - 2KClO3 -> 2KCl + 3O2 ···MnO2
+
+O3:
+  allotrope: O2
+  equation: 2KI + O3 +H2O -> I2 + 2KOH + O2
+  inspection: ヨウ化カリウムデンプン紙
 
 酸化物:
   note: 非塩基性、酸性、両性酸化物 => CO,NO
 
+H2S:
+  property:
+    - 弱酸
+    - 无色
+    - 腐卵臭
+    - 有毒
+  production: Fe + H2SO4 -> H2S + FeSO4
+
 S:
-  equation: H2S + SO2 -> 2H2O + 3S
+  allotrope:
+    - 斜方硫黄
+    - 単斜硫黄
+    - ゴム状硫黄
   phenomenon: 白濁
-  SO2:
-    desc: 無色 刺激臭 漂白作用
+
+  二酸化硫黄:
+    formula: SO2
     property:
-      - H2O + H2S -> 2H2SO3
+      - 無色
+      - 刺激臭
+      - 漂白作用
+      - 還元性
+    equation: H2O + H2S -> 2H2SO3
     production:
       - S + O2 -> SO2
-      - Cu +H2SO4 -> SO2 + CuSO4 + 2H2O
-  SO3:
+      - Cu + H2SO4 -> SO2 + CuSO4 + 2H2O
+  三酸化硫黄:
+    formula: SO3
+    alias: 発煙硫酸
     desc: 常温的无色针状液体 易升华
     note: 发烟硫酸中的烟
 
@@ -29,44 +54,76 @@ S:
       industry:
         - 2SO2 + O2 -> 2SO3 ···V2O5
         - H2O  + SO3 -> H2SO4
-N:
+アンモニア:
+  formula: NH3
   production:
     lab: 2NH4Cl + Ca(OH)2 -> 2NH3 + CaCl2 + 2H2O
-    industry: N2 + 3H2 -> 2NH3 ···Fe3O4
-  硝酸:
-    property:
-      - 発煙性
-      - 光熱分解
-    production:
-      industry:
-        - 4NH3 + 5O2 + 6H2O ···Pt
-        - 2NO + O2 -> 2NO2
-        - 3NO2 + H2O -> 2NH3 + NO
-    note: オストワルト法
+    industry:
+      equation: N2 + 3H2 -> 2NH3 ···Fe3O4 400–600°C 200–1000 atm
+      notice: 放熱反應'
+      name: ハーバー・ボッシュ法
+
+
+一酸化窒素:
+  formula: NO
+  production: 3Cu + 8HNO3 -> 3Cu(NO3)2 + 4H2O + 2NO ···希硝酸
+
+二酸化窒素:
+  formula: NO2
+  production: Cu + 4HNO3 -> Cu(NO3)2 + 2H2O + 2NO2 ···浓硝酸
+硝酸:
+  formula: HNO3
+  property:
+    - 発煙性
+    - 光熱分解
+  production:
+    industry:
+      - 4NH3 + 5O2 -> 4NO + 6H2O ···Pt
+      - 2NO + O2 -> 2NO2
+      - 3NO2 + H2O -> 2NH3 + NO
+  note: オストワルト法
   equation: 2NO + O2 -> 2NO2 ∴ 不能排空气收集
 
 リン:
-  黄リン: 空気中自然発火
+  formula: P
+  allotrope:
+    - 黄リン
+    - 赤リン
   P4O10:
-    desc: 白色结晶 吸湿性 酸性干燥剂
+    property:
+      - 白色结晶
+      - 吸湿性
+      - 酸性干燥剂
     equation: 6H2O + P4O10 -> 4H3PO4
 
+黄リン:
+  property: 空気中自然発火
+
 ケイ素:
+  formula: Si
+  bond: 共有結合
+  property: 立体网状结构
+  production: 2C+SiO2 -> Si + 2CO
   水ガラス:
-    production: ケイ酸ナトリウム 加水加热
+    production: 2NaOH + SiO2 -> Na2SiO2 + H2O #ケイ酸ナトリウム 加水加热
     property:
       - 粘性
     usage:
       - 粘着剂
   シリカゲル:
-    production: ゲル状ケイ酸加热脱水
+    production: Na2SiO2 + 2HCl -> 2NaCl + H2SiO3 #ゲル状ケイ酸加热脱水
 
-C:
-  CO:
-    production:
-      lab: HCOOH -> H2O + CO ···濃硫酸
-      industry: C + H2O -> H2 + CO
-  CO2:
-    production:
-      lab: CaCO3 + 2HCl -> H2O + CO2 + CaCl2
-      industry: CaCO3 -> CaO + CO2
+炭素:
+  formula: C
+
+一酸化炭素:
+  formula: CO
+  production:
+    lab: HCOOH -> H2O + CO ···濃硫酸
+    industry: C + H2O -> H2 + CO
+
+二酸化炭素:
+  formula: CO2
+  production:
+    lab: CaCO3 + 2HCl -> H2O + CO2 + CaCl2
+    industry: CaCO3 -> CaO + CO2

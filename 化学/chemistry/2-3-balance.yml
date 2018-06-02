@@ -21,3 +21,7 @@ meta:
 
 溶解平衡:
   calculation: Ksp = K[固体] = k[A+]^n·[B+]^m
+
+equations:
+  - H2+I2 <-> 2HI
+  - N2O4 <-> 2NO2
