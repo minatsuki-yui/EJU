@@ -1,34 +1,55 @@
-import reader
+import re
+import yaml
+import json
+import scaffold
 
-class Concepts(object):
-    def __init__(self):
-        self.description = ''
-        self.note = ''
+common_elements = ['H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne', 'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'Ar',
+                    'K', 'Ca', 'V', 'Cr', 'Mn', 'Fe', 'Ni', 'Cu', 'Zn', 'Br', 'Sr', 'Pd', 'Ag', 'Cd', 'Sn', 'I', 'Cs',
+                    'Ba', 'Pt', 'Au', 'Hg', 'Pb']
 
-
-class Equation(object):
-    def __init__(self, eq):
-        self.name = ''
-        self.reactants = []
-        self.products = []
-        self.conditions = ''
-        self.phenomenon = ''
-        self.notice = ''
-        self.__merge(reader.read(eq))
-
-    def __merge(self, eq_obj):
-        self.name = eq_obj.get('name')
-        self.reactants = eq_obj.get('reactants')
-        self.products = eq_obj.get('products')
-        self.conditions = eq_obj.get('conditions')
-        self.phenomenon = eq_obj.get('phenomenon')
-        self.notice = eq_obj.get('notice')
+chemical_reg = ''
 
 
+def is_chemical(text):
+    if text in common_elements:
+        return True
 
-class Chemicals(Concepts):
+
+def get_common():
+    # with open('../化学/meta.yml', 'r') as y:
+    #    meta = yaml.load(y.read())
+    with open('../data/all_elements.json', 'r') as j:
+        data = json.loads(j.read())
+
+    return data
+
+
+elements = get_common()
+
+
+class Element(object):
+
+    def __init__(self, symbol):
+        self.z = 0
+        self.symbol = 0
+        self.en_name = 0
+        self.jp_name = 0
+        self.group = 0
+        self.period = 0
+        self.weight = 0
+        self.density = 0
+        self.melt = 0
+        self.boil = 0
+        self.property = []
+
+        el = elements[symbol]
+
+        for each in el:
+            self.__setattr__(each, el[each])
+
+
+class Chemical(object):
     def __init__(self, substance):
-        super(Concepts, self).__init__()
         self.names = substance.get('names')
         self.formula = substance.get('formula')
         self.property = substance.get('property')
@@ -45,20 +66,23 @@ class ProductionMethods(object):
         self.industry = Equation(method.get('industry'))
 
 
+class Equation(object):
+    def __init__(self, eq_obj):
+        self.name = eq_obj.get('name')
+        self.reactants = eq_obj.get('reactants')
+        self.products = eq_obj.get('products')
+        self.conditions = eq_obj.get('conditions')
+        self.phenomenon = eq_obj.get('phenomenon')
+        self.notice = eq_obj.get('notice')
+
+class DB(object):
+
+    def __init__(self):
+        self.elements = {}
+        for chemical in common_elements:
+            self.elements[chemical] = Element(chemical)
+
 if __name__ == '__main__':
-    NH3 = {
-        'names': ['アンモニア'],
-        'formula': 'NH3',
-        'production': {
-            'lab': '2NH4Cl + Ca(OH)2 -> 2NH3 + CaCl2 + 2H2O',
-            'industry': {
-                'equation': 'N2 + 3H2 -> 2NH3 ···Fe3O4 400–600°C 200–1000 atm',
-                'notice': '放熱反應',
-                'name': 'ハーバー・ボッシュ法'
-            }
-        }
-    }
 
-    nh3 = Chemicals(NH3)
-    print(nh3.production_methods.industry.reactants)
-
+    d = DB()
+    print(d.elements['He'].jp_name)

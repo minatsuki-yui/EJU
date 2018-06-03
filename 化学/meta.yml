@@ -4,6 +4,8 @@ symbols:
 
   common: ['H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne', 'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'Ar', 'K', 'Ca','V', 'Cr', 'Mn', 'Fe', 'Ni', 'Cu', 'Zn', 'Br', 'Sr', 'Pd', 'Ag', 'Cd', 'Sn', 'I', 'Cs', 'Ba', 'Pt', 'Au', 'Hg', 'Pb']
 
+common_groups: {'1': ['H', 'Li', 'Na', 'K', 'Cs'], '2': ['Be', 'Mg', 'Ca', 'Sr', 'Ba'], '3': [], '4': [], '5': ['V'], '6': ['Cr'], '7': ['Mn'], '8': ['Fe'], '9': [], '10': ['Ni', 'Pd', 'Pt'], '11': ['Cu', 'Ag', 'Au'], '12': ['Zn', 'Cd', 'Hg'], '13': ['B', 'Al'], '14': ['C', 'Si', 'Sn', 'Pb'], '15': ['N', 'P'], '16': ['O', 'S'], '17': ['F', 'Cl', 'Br', 'I'], '18': ['He', 'Ne', 'Ar']}
+
 colors:
   - 赤
   - 紅
@@ -41,6 +43,7 @@ predefine:
   - bond: 结合
   - monomer: 単量体
   - allotrope: 同素异形体
+  - solubility: 可溶性
 
 in_string_predefine:
   - is:

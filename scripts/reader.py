@@ -1,11 +1,13 @@
+import yaml
+
+
 class Reader(object):
-    def __init__(self, all_data):
-        self.data = all_data
+    def __init__(self):
         self.glossary = {}
-        self.key = ''
-        self.super_key = ''
-        self.value = ''
-        self.magic_words = ['note',
+        self.data_stack = []
+        self.skip_words = ['meta']
+        self.magic_words = ['alias',
+                            'note',
                             'property',
                             'production',
                             'inspection',
@@ -22,69 +24,75 @@ class Reader(object):
                             'bond',
                             'name',
                             'example',
-                            'component',
-                            'components',
                             'title',
-                            'type'
+                            'type',
+                            'desc'
                             ]
-        self.make_glossary()
 
-    def has_description(self, value):
-        if type(value) == str:
-            return value
-        elif type(value) == list:
-            self.walk(value)
-        elif type(value) == dict:
-            return value.get('desc')
-        else:
-            return False
+    def read_file(self,path_to_file):
+        with open(path_to_file, 'r') as f:
+            data = yaml.load(f.read())
+        self.read(data)
 
-    def walk(self, data):
-        for each in data:
-            if (type(data) == list):
-                if each != dict:
-                    return
-                else:
-                    self.walk(each)
-            self.key = each
-            self.value = data[each]
-            if type(self.value) == dict:
-                self.super_key = self.key
-                self.walk(self.value)
-            if self.has_description(self.value):
-                if self.key == 'desc':
-                    self.add_to_glossary(self.super_key, self.value)
-                else:
-                    self.add_to_glossary(self.key, self.value)
+    def read(self, data):
 
-    def make_glossary(self):
-        self.walk(self.data)
-        print(len(self.glossary))
-        glossary_list = []
-        for each in self.glossary:
-            glossary_list.append(f'## {each}')
-            glossary_list.append(f'{self.glossary[each]}\n')
+        for key in data:
+            value = data[key]
+            key = key.strip()
 
-        with open('../gitbook/GLOSSARY.md', 'w') as g:
-            g.write('\n'.join(glossary_list))
+            if key not in self.skip_words:
+                print(1)
+
+            # if type(data) == list:
+            #    if each != dict:
+            #        return
+            #    else:
+            #        self.read(each)
+
+            if key in self.magic_words:
+                self.do_magic(key, data)
+
+            if type(value) == dict:
+                self.data_stack.append({
+                    'key': key,
+                    'value': value
+                })
+                self.read(value)
+
+            if type(value) == str:
+                self.add_to_glossary(key, value.strip())
+        if self.data_stack:
+            self.data_stack.pop()
+
+    def do_magic(self, key, data):
+        if key == 'desc':
+            self.add_to_glossary(self.data_stack[-1]['key'], data['desc'])
+        elif key == 'alias':
+            print(data['alias'])
+            alias = self.data_stack[-1]['key']
+            self.add_to_glossary(data['alias'], alias)
 
     def add_to_glossary(self, k, v):
+        #print(k)
         clean_k = k.strip()
         if clean_k in self.magic_words:
             return
-        print(clean_k, '=', v)
-        self.glossary[clean_k] = v
+        # print(clean_k, '=', v)
+        if type(v) == str:
+            clean_v = v.strip()
+        else:clean_v = v
+        self.glossary[clean_k] = clean_v
 
-    @staticmethod
-    def read(eq):
-        if type(eq) == str:
-            return __class__.read_equation(eq)
-        elif type(eq) == dict:
-            eq_obj = __class__.read_equation(eq.get('equation'))
-            eq_obj['phenomenon'] = eq.get('phenomenon')
-            eq_obj['notice'] = eq.get('notice')
-            eq_obj['name'] = eq.get('name')
-            return eq_obj
+    # @staticmethod
+    # def read(eq):
+    #    if type(eq) == str:
+    #        return __class__.read_equation(eq)
+    #    elif type(eq) == dict:
+    #        eq_obj = __class__.read_equation(eq.get('equation'))
+    #       eq_obj['phenomenon'] = eq.get('phenomenon')
+    #        eq_obj['notice'] = eq.get('notice')
+    #        eq_obj['name'] = eq.get('name')
+    #        return eq_obj
 
     @staticmethod
     def read_equation(eq):
@@ -103,3 +111,8 @@ class Reader(object):
             eq_obj['conditions'] = reaction[1].split(' ')
 
         return eq_obj
+
+if __name__ == '__main__':
+    r = Reader()
+    r.read_file('../化学/basic/1-1-pure_substance&mixture.yml')
+    print(r.glossary)

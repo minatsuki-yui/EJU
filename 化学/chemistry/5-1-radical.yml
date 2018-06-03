@@ -3,7 +3,8 @@ meta:
   type: main
 
 ウェーラー:
-  note: Pb(OCN)2 + 2NH3 + 2H2O -> NH4OCN -> CO(NH2)2 人类首次从无机物合成有机物
+  equation: Pb(OCN)2 + 2NH3 + 2H2O -> NH4OCN -> CO(NH2)2
+  desc: 人类首次从无机物合成有机物
 
 分子构造:
   飽和炭原子: 四面体形

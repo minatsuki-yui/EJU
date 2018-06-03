@@ -23,11 +23,14 @@ meta:
     - 易溶於水
     - 不電離 -> 中性
   メタノール:
-    - 無色
-    - 毒性 -> ギ酸
+    property:
+      - 無色
+      - 毒性 -> ギ酸
   エターナル:
-    - 葡萄糖发酵
-    - 消毒剂
+    property:
+      - 葡萄糖发酵
+    usage:
+      - 消毒剂
 
   エーテル:
     property:
@@ -51,5 +54,5 @@ meta:
       アセント:
         production: クメン法副產物
     ヨードホルム反応:
-      desc: I2 + NaOH aq -> CHI3
+      desc: I2 + NaOH -> CHI3
       note: 特殊臭气 黄色沉淀 检出CH3CRHOH or CH3COR

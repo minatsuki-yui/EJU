@@ -9,10 +9,10 @@ meta:
     - メタン:
       lab: CH3COONa + NaOH -> CH4 + Na2CO3 ···固体加热
       note: 水上置换 试管向下使气体充满 防止爆炸
-  property:
+  equations:
     置換:
       - Br2:
-        formula: Br2 + C6H14 -> C6H13Br + HBr ···光照 振动
+        equation: Br2 + C6H14 -> C6H13Br + HBr ···光照 振动
         note: 使溶于ヘキセン的Br2褪色
         inspection: NH3 ···白煙
 
@@ -20,7 +20,7 @@ meta:
   structure: CnH2n
   production:
     - エチレン: C2H5OH -> C2H4 + H2O ···浓硫酸 170°C
-  property:
+  equations:
     附加:
       - H2: 触媒Pt
       - H2O: CH3CH2OH
@@ -33,7 +33,7 @@ meta:
   note: Br2水的脱水反应 => 不飽和結合的検出
   production:
     - アセチレン: CaC2 + H2O -> C2H2 + Ca(OH)2 ···CaC2=カーバイド
-  property:
+  equations:
     附加:
       - H2: 触媒Pt
       - Br2: CHBr=CHBr

@@ -7,24 +7,32 @@ NaOH:
   production:
     industry: イオン交換膜
 
-NaCO3:
+炭酸ナトリウム:
+  formula: NaCO3
   property: 風解
-  equation:
+  equations:
     - NaCO3·10H20 -> NaCO3·H20
     - NaCO3 + H2O <-> NaHCO3 + NaOH
-    - NaCO3 + SiO2 -> NaSiO3 + CO2  ···Na2O·SiO2
+    - NaCO3 + SiO2 -> NaSiO3 + CO2  #also Na2O·SiO2
     - CaO + SiO2 -> CaSiO3 ···CaO·SiO2
 
   note: 漫长
-  usage: 玻璃、石碱 合成洗剤
+  usage:
+    - 玻璃
+    - 石碱
+    - 合成洗剤
   production:
     industry: アンモニアソーダ法　(ソルベー法)
     note: NaHCO3 为止 => ソルベー法
 
-NaHCO3:
-  desc: 重曹
-  usage: 入浴剤　ふくらし粉(ベーキングパウダー)　胃薬
-  equation:
+炭酸水素ナトリウム:
+  formula: NaHCO3
+  alias: 重曹
+  usage:
+    - 入浴剤
+    - ふくらし粉(ベーキングパウダー)
+    - 胃薬
+  equations:
     - 2NaHCO3 -> Na2CO3 + CO2 + H2O
     - NaHCO3 + HCl -> NaCl + CO2 + H2O
 
@@ -37,30 +45,91 @@ NaHCO3:
         - 硫酸盐溶于水
         - 碳酸盐微溶于水
     Mg: *be
-Ca:
-  石膏:
-    formula: CaSO4·2H2O
-  焼き石膏:
-    formula: CaSO4·1/2H2O
+
+石膏:
+  formula: CaSO4·2H2O
+
+焼き石膏:
+  formula: CaSO4·1/2H2O
+
+生石灰:
+  formula: CaO
+  usage:
+    - 乾燥剤
+    - 加熱剤
+
+BaSO4:
+  color: 白
+  solubility:
+  usage:
+    - X光造影剤
 
 両性金属:
-  desc: Al、Zn、Sn、Pb
+  is:
+    - Al
+    - Zn
+    - Sn
+    - Pb
 
 錯イオン:
-  NH3:
-    equation:
-      - Zn2+ -> ZnO {白}  -> [Zn(NH3)4]2+ {| 正四面体}
-      - Cu2+ {青} -> ZnO {青白}  -> [Cu(NH3)4]2+ {深青 | 平面正方形}
-      - Ag+ -> Ag2O {褐色}  -> [Ag(NH3)2]+ { | 直線}
-  NaCN:
-    equation:
-      - Fe2+ -> [Fe(CN)6]4+ {淡黄 | 正八面体}
-      - Fe3+ -> [Fe(CN)6]3+ {黄 | 正八面体}
+  equations:
+    - Zn2+ + NH3 -> ZnO
+    - ZnO + NH3 -> [Zn(NH3)4]2+
 
-Al:
-  usage: 高压电线
-  ジュラルミン: Al·Cu·Mg·Mn合金 飞机机体
-  テルミット反応: テルミット(Al、Fe混合物)
-  ミョウバン:
-    alias: 明礬
-    formula: AlK(SO4)2・12H2O
+    - Cu2+ + NH3  -> Cu(OH)2
+    - Cu(OH)2  + NH3 -> [Cu(NH3)4]2+
+
+    - Ag+ + NH3 -> Ag2O {褐色}
+    - Ag2O + NH3 -> [Ag(NH3)2]+
+    - Fe2+ + NaCN -> [Fe(CN)6]4+
+    - Fe3+ + NaCN -> [Fe(CN)6]3+
+
+Zn+:
+  color: null
+
+'[Zn(NH3)4]2+':
+  color: null
+  solubility: H2O
+  structure: 正四面体
+
+ZnO:
+  color: 白
+  solubility: null
+
+Cu2+:
+  color: 青
+
+Cu(OH)2:
+  solubility: null
+  color: 青白
+
+'[Cu(NH3)4]2+':
+  solubility: H2O
+  color: 深青
+  structure: 平面正方形
+
+Ag+:
+  color: null
+
+Ag2O:
+  color: 褐色
+  solubility: null
+
+'[Ag(NH3)2]+':
+  color: null
+  structure: 直線
+  solubility: H2O
+
+Fe2+:
+  color: 淡绿
+
+Fe3+:
+  color: 黄褐
+
+'[Fe(CN)6]4+':
+  color: 淡黄
+  structure: 正八面体
+
+'[Fe(CN)6]3+':
+  color: 黄
+  structure: 正八面体
