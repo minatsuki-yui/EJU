@@ -10,18 +10,27 @@ materials and notes for EJU
 
 > not stable
 
-| spell | type | explanation |
-| ---- | --- | --- |
-| desc| string | Description of this substance. Can be omitted if no related concepts |
-| note| string | Techniques or helpful info |
-| property| list | Chemical or physical property of this substance |
-| production | string | Production method of this substance|
-| inspection | string | Inspection method of this substance |
-| alias | string | another name of this substance |
-| formula | string | formula of this substance |
-| usage | string | usage of this substance |
-| equation | string | equation related to this substance |
-
+  - desc: 定义
+  - formula: 化学式
+  - property: 性质
+  - equation: 反应方程
+  - calculation: 计算公式
+  - phenomenon: 现象
+  - production: 产物
+  - note: 笔记
+  - is: 包括
+  - max: 最大的是
+  - have: 有此现象的
+  - lab: 实验室制法
+  - industry: 工业制法
+  - usage: 用途
+  - alias: 别名
+  - structure: 结构
+  - example: 例子
+  - bond: 结合
+  - monomer: 単量体
+  - allotrope: 同素异形体
+  - solubility: 可溶性
 
 
 ---
