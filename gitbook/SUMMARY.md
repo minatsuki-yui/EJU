@@ -1,17 +1,19 @@
 # Summary
 
+* [Introduction](README.md)
+
 ### 化学基礎
 
-* [物質の構成](basic/README.md)
+* 物質の構成
     * [純物質·混合物](basic/pure_substance&mixture.md)
     * [周期表](basic/periodic_table.md)
     * [結合](basic/bond.md)
     * [分子の形](basic/shape.md)
     * [立方格子](basic/lattice.md)
-* [物質量と化学反応式](basic/README.md)
+* 物質量と化学反応式
     * [溶解&濃度](basic/solution.md)
     * [基本法則](basic/law.md)
-* [物質の変化](basic/README.md)
+* 物質の変化
     * [酸·塩基](basic/alkali.md)
     * [中和反応](basic/neutralization.md)
     * [PH指示剂](basic/pH_indicator.md)
@@ -20,27 +22,27 @@
 
 ### 化学
 
-* [物質の状態](basic/README.md)
+* 物質の状態
     * [気体の性質](chemistry/gas.md)
     * [上昇&降下&浸透圧](chemistry/elevation&depression.md)
     * [コロイド](chemistry/colloid.md)
-* [熱·電·平衡](basic/README.md)
+* 熱·電·平衡
     * [電池·電気分解](chemistry/battery&electrolysis.md)
     * [熱](chemistry/heat.md)
     * [平衡](chemistry/balance.md)
-* [無機非金屬](basic/README.md)
+* 無機非金屬
     * [無機非金屬-1](chemistry/nonmetal1.md)
     * [無機非金屬-2](chemistry/nonmetal2.md)
-* [無機金屬](basic/README.md)
+* 無機金屬
     * [無機金屬-1](chemistry/metal1.md)
     * [無機金屬-2](chemistry/metal2.md)
-* [有機](basic/README.md)
+* 有機
     * [官能基](chemistry/radical.md)
     * [炭化水素](chemistry/hydrocarbon.md)
     * [含氧](chemistry/oxide.md)
     * [カルボン酸](chemistry/carboxylic_acid.md)
     * [油脂](chemistry/oil.md)
-* [高分子](basic/README.md)
+* 高分子
     * [分類](chemistry/classification.md)
     * [单糖类](chemistry/monosaccharide.md)
     * [二糖类](chemistry/disaccharide.md)
