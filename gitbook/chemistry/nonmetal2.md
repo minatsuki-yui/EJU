@@ -1,69 +1,184 @@
+## 酸素:
 
-酸素:
-  O3:
-    inspection: 2KI + O3 +H2O -> I2 + 2KOH + O2
-    note: ヨウ化カリウムデンプン紙
+```yaml
+产物:
+  实验室制法:
+    反应方程s:
+      - 2H2O2 -> O2 + 2H2O ···MnO2
+      - 2KClO3 -> 2KCl + 3O2 ···MnO2
 
-酸化物:
-  note: 非塩基性、酸性、両性酸化物 => CO,NO
+```
 
-S:
-  equation: H2S + SO2 -> 2H2O + 3S
-  phenomenon: 白濁
-  SO2:
-    desc: 無色 刺激臭 漂白作用
-    property:
-      - H2O + H2S -> 2H2SO3
-    production:
-      - S + O2 -> SO2
-      - Cu +H2SO4 -> SO2 + CuSO4 + 2H2O
-  SO3:
-    desc: 常温的无色针状液体 易升华
-    note: 发烟硫酸中的烟
+## O3:
 
-  濃硫酸:
-    production:
-      industry:
-        - 2SO2 + O2 -> 2SO3 ···V2O5
-        - H2O  + SO3 -> H2SO4
-N:
-  production:
-    lab: 2NH4Cl + Ca(OH)2 -> 2NH3 + CaCl2 + 2H2O
-    industry: N2 + 3H2 -> 2NH3 ···Fe3O4
-  硝酸:
-    property:
-      - 発煙性
-      - 光熱分解
-    production:
-      industry:
-        - 4NH3 + 5O2 + 6H2O ···Pt
-        - 2NO + O2 -> 2NO2
-        - 3NO2 + H2O -> 2NH3 + NO
-    note: オストワルト法
-  equation: 2NO + O2 -> 2NO2 ∴ 不能排空气收集
+```yaml
+同素异形体: O2
+反应方程: 2KI + O3 +H2O -> I2 + 2KOH + O2
+inspection: ヨウ化カリウムデンプン紙
 
-リン:
-  黄リン: 空気中自然発火
-  P4O10:
-    desc: 白色结晶 吸湿性 酸性干燥剂
-    equation: 6H2O + P4O10 -> 4H3PO4
+```
 
-ケイ素:
-  水ガラス:
-    production: ケイ酸ナトリウム 加水加热
-    property:
-      - 粘性
-    usage:
-      - 粘着剂
-  シリカゲル:
-    production: ゲル状ケイ酸加热脱水
+## 酸化物:
 
-C:
-  CO:
-    production:
-      lab: HCOOH -> H2O + CO ···濃硫酸
-      industry: C + H2O -> H2 + CO
-  CO2:
-    production:
-      lab: CaCO3 + 2HCl -> H2O + CO2 + CaCl2
-      industry: CaCO3 -> CaO + CO2
+```yaml
+※: 非塩基性、酸性、両性酸化物 => CO,NO
+
+```
+
+## H2S:
+
+```yaml
+性质:
+  - 弱酸
+  - 无色
+  - 腐卵臭
+  - 有毒
+产物: Fe + H2SO4 -> H2S + FeSO4
+
+```
+
+## S:
+
+```yaml
+同素异形体:
+  - 斜方硫黄
+  - 単斜硫黄
+  - ゴム状硫黄
+现象: 白濁
+
+二酸化硫黄:
+  化学式: SO2
+  性质:
+    - 無色
+    - 刺激臭
+    - 漂白作用
+    - 還元性
+  反应方程: H2O + H2S -> 2H2SO3
+  产物:
+    - S + O2 -> SO2
+    - Cu + H2SO4 -> SO2 + CuSO4 + 2H2O
+三酸化硫黄:
+  化学式: SO3
+  别名: 発煙硫酸
+  定义: 常温的无色针状液体 易升华
+  ※: 发烟硫酸中的烟
+
+濃硫酸:
+  产物:
+    工业制法:
+      - 2SO2 + O2 -> 2SO3 ···V2O5
+      - H2O  + SO3 -> H2SO4
+```
+
+## アンモニア:
+
+```yaml
+化学式: NH3
+产物:
+  实验室制法: 2NH4Cl + Ca(OH)2 -> 2NH3 + CaCl2 + 2H2O
+  工业制法:
+    反应方程: N2 + 3H2 -> 2NH3 ···Fe3O4 400–600°C 200–1000 atm
+    notice: 放熱反應'
+    name: ハーバー・ボッシュ法
+
+
+```
+
+## 一酸化窒素:
+
+```yaml
+化学式: NO
+产物: 3Cu + 8HNO3 -> 3Cu(NO3)2 + 4H2O + 2NO ···希硝酸
+
+```
+
+## 二酸化窒素:
+
+```yaml
+化学式: NO2
+产物: Cu + 4HNO3 -> Cu(NO3)2 + 2H2O + 2NO2 ···浓硝酸
+```
+
+## 硝酸:
+
+```yaml
+化学式: HNO3
+性质:
+  - 発煙性
+  - 光熱分解
+产物:
+  工业制法:
+    - 4NH3 + 5O2 -> 4NO + 6H2O ···Pt
+    - 2NO + O2 -> 2NO2
+    - 3NO2 + H2O -> 2NH3 + NO
+※: オストワルト法
+反应方程: 2NO + O2 -> 2NO2 ∴ 不能排空气收集
+
+```
+
+## リン:
+
+```yaml
+化学式: P
+同素异形体:
+  - 黄リン
+  - 赤リン
+P4O10:
+  性质:
+    - 白色结晶
+    - 吸湿性
+    - 酸性干燥剂
+  反应方程: 6H2O + P4O10 -> 4H3PO4
+
+```
+
+## 黄リン:
+
+```yaml
+性质: 空気中自然発火
+
+```
+
+## ケイ素:
+
+```yaml
+化学式: Si
+结合: 共有結合
+性质: 立体网状结构
+产物: 2C+SiO2 -> Si + 2CO
+水ガラス:
+  产物: 2NaOH + SiO2 -> Na2SiO2 + H2O #ケイ酸ナトリウム 加水加热
+  性质:
+    - 粘性
+  用途:
+    - 粘着剂
+シリカゲル:
+  产物: Na2SiO2 + 2HCl -> 2NaCl + H2SiO3 #ゲル状ケイ酸加热脱水
+
+```
+
+## 炭素:
+
+```yaml
+化学式: C
+
+```
+
+## 一酸化炭素:
+
+```yaml
+化学式: CO
+产物:
+  实验室制法: HCOOH -> H2O + CO ···濃硫酸
+  工业制法: C + H2O -> H2 + CO
+
+```
+
+## 二酸化炭素:
+
+```yaml
+化学式: CO2
+产物:
+  实验室制法: CaCO3 + 2HCl -> H2O + CO2 + CaCl2
+  工业制法: CaCO3 -> CaO + CO2
+```

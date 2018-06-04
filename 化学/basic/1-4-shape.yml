@@ -1,0 +1,22 @@
+meta:
+  title: 分子の形
+  type: basics
+
+分子の形:
+  正四面体形:
+    property: 無極性
+    is:
+      CH4
+
+  三角錐形:
+    property: 極性
+    is: NH3
+
+  折れ線形:
+    property: 極性
+    is: H2O
+
+  直線形:
+    is:
+      - HCl #: 極性
+      - CO2 #: 無極性

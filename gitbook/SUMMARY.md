@@ -6,6 +6,7 @@
     * [純物質·混合物](basic/pure_substance&mixture.md)
     * [周期表](basic/periodic_table.md)
     * [結合](basic/bond.md)
+    * [分子の形](basic/shape.md)
     * [立方格子](basic/lattice.md)
 * [物質量と化学反応式](basic/README.md)
     * [溶解&濃度](basic/solution.md)
@@ -15,6 +16,7 @@
     * [中和反応](basic/neutralization.md)
     * [PH指示剂](basic/pH_indicator.md)
     * [中和滴定](basic/titration.md)
+    * [酸化還元](basic/redox.md)
 
 ### 化学
 
@@ -40,7 +42,9 @@
     * [油脂](chemistry/oil.md)
 * [高分子](basic/README.md)
     * [分類](chemistry/classification.md)
-    * [糖类](chemistry/carbohydrate.md)
+    * [单糖类](chemistry/monosaccharide.md)
+    * [二糖类](chemistry/disaccharide.md)
+    * [多糖类](chemistry/polysaccharide.md)
     * [アミノ酸](chemistry/amino_acid.md)
     * [タンパク質](chemistry/protein.md)
     * [酵素·核酸](chemistry/enzyme&nucleic_acid.md)

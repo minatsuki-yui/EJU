@@ -2,9 +2,11 @@ meta:
   title: 溶解&濃度
   type: basics
 
-標準状況: 0°C 1.01x10^5Pa
+標準状況:
+  desc: 0°C 1.01x10^5Pa
 
-気体モル体積: 无关気体种类 22.4 L/mol
+気体モル体積:
+  desc: 无关気体种类 22.4 L/mol
 
 溶解:
   note: 越相似越相溶 有极性容易溶于水 无极性难溶于水
@@ -13,6 +15,8 @@ meta:
   desc: 溶质质量/溶液质量x100
   calculation: c = n/V = ω*ρ*1000/M
 
-モル濃度: mol/L
+モル濃度:
+  desc: mol/L
 
-質量モル濃度: mol/kg
+質量モル濃度:
+  desc: mol/kg

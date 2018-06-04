@@ -1,7 +1,5 @@
 {
     "root": "./gitbook",
     "author": "yue",
-    "theme-default": {
-            "showLevel": true
-        }
+    "language": "ja"
 }

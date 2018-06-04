@@ -1,87 +1,130 @@
+## ウェーラー:
 
-ウェーラー:
-  note: Pb(OCN)2 + 2NH3 + 2H2O -> NH4OCN -> CO(NH2)2 人类首次从无机物合成有机物
+```yaml
+反应方程: Pb(OCN)2 + 2NH3 + 2H2O -> NH4OCN -> CO(NH2)2
+定义: 人类首次从无机物合成有机物
 
-分子构造:
-  飽和炭原子: 四面体形
-  二重结合: 平面构造 同平面最少6个
-  三重结合: 直线构造 同平面最少4个
-  ベンゼン環: 平面构造 同平面最少12个
+```
 
-ヒドロキシ基:
-  desc: R-OH
+## 分子构造:
 
-  case1:
-    structure: R-OH (炭化水素)
-    name: アルコール
-    example: メタノール
-    property:
-      - 亲水
+```yaml
+飽和炭原子: 四面体形
+二重结合: 平面构造 同平面最少6个
+三重结合: 直线构造 同平面最少4个
+ベンゼン環: 平面构造 同平面最少12个
 
-  case2:
-    structure: R-OH (ベンゼン環)
-    name: フェノール類
-    example: フェノール
-    property:
-      - 不溶于水
-      - 弱酸
+```
 
-アルデヒド:
-  structure: R-CHO
-  name: アルデヒド
-  example: アセトアルデヒド
-  property:
-    - 还原性
-    - 被酸化 => カルボキシ基
+## ヒドロキシ基:
 
-ケトン:
-  structure: R1-CO-R2
-  name: ケトン
-  example: アセトン
-  property:
-    - 无还原性
+```yaml
+定义: R-OH
 
-カルボキシ:
-  structure: R1-COOH
-  name: カルボン基
-  example: 酢酸
-  property:
+case1:
+  结构: R-OH (炭化水素)
+  name: アルコール
+  例子: メタノール
+  性质:
     - 亲水
+
+case2:
+  结构: R-OH (ベンゼン環)
+  name: フェノール類
+  例子: フェノール
+  性质:
+    - 不溶于水
     - 弱酸
 
-アミル:
-  structure: R-NH2
-  name: アミン
-  example: アニリン
-  property:
-    - 亲水
-    - 弱塩基性
+```
 
-スルホ:
-  structure: R-SO3H
-  name: スルホン酸
-  example: ベンゼンスルホン酸
-  property:
-    - 亲水
-    - 强酸性
+## アルデヒド:
 
-エステル:
-  structure: R1-COO-R2
-  name: エステル
-  example: 酢酸エチル
-  property:
-    - 疏水
+```yaml
+结构: R-CHO
+name: アルデヒド
+例子: アセトアルデヒド
+性质:
+  - 还原性
+  - 被酸化 => カルボキシ基
 
-ニトロ:
-  structure: R-NO2
-  name: ニトロ化合物
-  example: ニトロベンゼン
-  property:
-    - 疏水
+```
 
-エーテル:
-  structure: R1-O-R2
-  name: エーテル
-  example: ジエチルエーテル
-  property:
-    - 疏水
+## ケトン:
+
+```yaml
+结构: R1-CO-R2
+name: ケトン
+例子: アセトン
+性质:
+  - 无还原性
+
+```
+
+## カルボキシ:
+
+```yaml
+结构: R1-COOH
+name: カルボン基
+例子: 酢酸
+性质:
+  - 亲水
+  - 弱酸
+
+```
+
+## アミル:
+
+```yaml
+结构: R-NH2
+name: アミン
+例子: アニリン
+性质:
+  - 亲水
+  - 弱塩基性
+
+```
+
+## スルホ:
+
+```yaml
+结构: R-SO3H
+name: スルホン酸
+例子: ベンゼンスルホン酸
+性质:
+  - 亲水
+  - 强酸性
+
+```
+
+## エステル:
+
+```yaml
+结构: R1-COO-R2
+name: エステル
+例子: 酢酸エチル
+性质:
+  - 疏水
+
+```
+
+## ニトロ:
+
+```yaml
+结构: R-NO2
+name: ニトロ化合物
+例子: ニトロベンゼン
+性质:
+  - 疏水
+
+```
+
+## エーテル:
+
+```yaml
+结构: R1-O-R2
+name: エーテル
+例子: ジエチルエーテル
+性质:
+  - 疏水
+```
