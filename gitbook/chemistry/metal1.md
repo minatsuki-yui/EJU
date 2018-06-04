@@ -127,7 +127,7 @@ color: null
 
 ```
 
-## '[Zn(NH3)4]2+':
+## [Zn(NH3)4]2+:
 
 ```yaml
 color: null
@@ -159,7 +159,7 @@ color: 青白
 
 ```
 
-## '[Cu(NH3)4]2+':
+## [Cu(NH3)4]2+:
 
 ```yaml
 可溶性: H2O
@@ -183,7 +183,7 @@ color: 褐色
 
 ```
 
-## '[Ag(NH3)2]+':
+## [Ag(NH3)2]+:
 
 ```yaml
 color: null
@@ -206,7 +206,7 @@ color: 黄褐
 
 ```
 
-## '[Fe(CN)6]4+':
+## [Fe(CN)6]4+:
 
 ```yaml
 color: 淡黄
@@ -214,7 +214,7 @@ color: 淡黄
 
 ```
 
-## '[Fe(CN)6]3+':
+## [Fe(CN)6]3+:
 
 ```yaml
 color: 黄
