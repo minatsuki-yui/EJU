@@ -9,7 +9,7 @@ class Maker(object):
                            'have': '有此现象的', 'lab': '实验室制法', 'industry': '工业制法', 'usage': '用途', 'alias': '别名',
                            'structure': '结构', 'example': '例子', 'bond': '结合', 'monomer': '単量体', 'allotrope': '同素异形体',
                            'solubility': '可溶性'}
-        self.output_dir = '../EJU/gitbook/chemistry/'
+        self.output_dir = '../../gitbook/chemistry/'
         self.working_dir = os.getcwd()
 
     def replace(self, s):

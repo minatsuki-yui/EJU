@@ -39,20 +39,87 @@ meta:
       - 不与Na反应
 
   カルボニル基:
-    アルデヒド:
-      production: 一级アルコール酸化
-      反応:
-        - 銀鏡反応: R-CHO 1:2 || H-CHO 1:4
-        - フェーリング液: Cu2O 赤色沉淀
-      ホルムアルデヒド:
-        - 37% -> ホルマリン
-      アセトアルデヒド:
-        - 無色刺激臭
-        - 悪酔い
-    ケトン:
-      production: 二级アルコール酸化
-      アセント:
-        production: クメン法副產物
-    ヨードホルム反応:
-      desc: I2 + NaOH -> CHI3
-      note: 特殊臭气 黄色沉淀 检出CH3CRHOH or CH3COR
+    - アルデヒド
+    - ケトン
+
+アルデヒド:
+  desc: 第一级アルコール酸化　还原生成第一级アルコール 进一步酸化生成カルボン酸
+  production: 一级アルコール酸化
+  property:
+    - 銀鏡反応
+    - フェーリング液の還元
+
+アセトアルデヒド:
+  desc: 第一级アルコール酸化　还原生成第一级アルコール 进一步酸化生成カルボン酸
+  formula: CH3CHO
+  production:
+    lab: CH3CH2OH -> CH3CHO ···K2Cr2O7
+    industry: 2C2H4 +O2 -> 2CH3CHO ···PbCl2 CuCl2
+  property:
+    - 無色
+    - 刺激臭
+    - 悪酔い
+    - 還元性
+    - 液体
+  usage:
+    - 酢酸の原料
+    - 防腐剂
+  equation:
+    - CH3CHO -> CH3COOH ···K2Cr2O7
+
+ホルムアルデヒド:
+  formula: HCHO
+  desc: 37% aq -> ホルマリン
+  property:
+    - 無色
+    - 刺激臭
+    - 易溶于水
+    - 還元性
+    - 気体
+  production: CH3OH + CuO -> HCHO + Cu + H2O ···Cu Pt
+  usage:
+    - フェノール树脂
+    - 防腐剂
+    - 尿素树脂
+
+ホルマリン:
+  desc: 37% ホルムアルデヒド aq -> ホルマリン
+  usage:
+    - 消毒剂
+    - 防腐剂
+    - 塑料
+
+ケトン:
+  desc: 第二级アルコール酸化　还原生成第二级アルコール 难以继续酸化
+
+アセント:
+  property:
+    - 無色
+    - 芳香
+    - 溶于水
+    - 溶于有机溶剂
+  production:
+    lab:
+      - 2-プロパノール -> アセント ···K2Cr2O7
+      - (CH3COO)2Na -> CaCO3 + アセント ···加热 ～乾留
+    industry: クメン法副產物
+  usage:
+    - 涂料
+
+
+銀鏡反応:
+  note: R-CHO 1:2 || H-CHO 1:4
+  phenomenon: 内壁析出银
+  usage:
+    - 检出還元性
+
+フェーリング液の還元:
+  phenomenon: Cu2O 赤色沉淀
+  usage:
+    - 检出還元性
+
+ヨードホルム反応:
+  desc: I2 + NaOH -> CHI3
+  phenomenon: 特殊臭气 黄色沉淀
+  usage:
+    - 检出CH3CRHOH or CH3COR

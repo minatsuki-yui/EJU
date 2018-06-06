@@ -1,0 +1,60 @@
+meta:
+  title: 亜鉛
+  type: main
+
+亜鉛:
+  formula: Zn
+  property:
+    - 带青色的银白色金属
+    - 熔点较低
+  formula: ZnO
+  equation:
+    - Zn + 2HCl -> ZnCl2 + H2
+    - Zn + 2NaOH + 2H2O -> Na2[Zn(OH)4] + H2
+
+トタン:
+  alias: 亜鉛めっき鋼板
+  is:
+    - Zn
+    - C
+    - Fe
+
+
+酸化亜鉛:
+  alias: 亜鉛華
+  formula: ZnO
+  property:
+    - 白色
+    - 粉末
+    - 不溶于水
+    - 两性酸化物
+  usage:
+    - 白色颜料
+    - 化粧品
+    - 医薬品
+  equation:
+    - ZnO + 2HCl -> ZnCl2 + H2O
+    - ZnO + 2NaOH + H2O -> Na2[Zn(OH)4]
+
+水酸化亜鉛:
+  formula: Zn(OH)2
+  property:
+    - 白色
+    - 沉淀
+  equation:
+    - Zn2+ + 2OH- -> Zn(OH)2
+    - Zn(OH)2 + 2HCl -> ZnCl2 + 2H2O
+    - Zn(OH)2 + 2NaOH -> Na2[Zn(OH)4]
+    - Zn(OH)2 + 4NH3 -> [Zn(NH3)4]2+ + 2OH-
+    - ZnSO4 + 2NaOH -> Zn(OH)2 + Na2SO4
+    - Zn(OH)2 + 2NaOH -> Na2[Zn(OH)4]
+
+硫化亜鉛:
+  formula: ZnS
+  property:
+    - 白色
+    - 沉淀
+    - 酸性可溶
+  usage:
+    - 白色颜料
+    - 荧光涂料

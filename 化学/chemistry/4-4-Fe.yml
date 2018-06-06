@@ -1,0 +1,25 @@
+meta:
+  title: 無機金屬-1
+  type: main
+
+Fe2+:
+  color: 淡绿
+
+Fe3+:
+  color: 黄褐
+
+'[Fe(CN)6]4+':
+  color: 淡黄
+  structure: 正八面体
+
+'[Fe(CN)6]3+':
+  color: 黄
+  structure: 正八面体
+
+赤さび:
+  is:
+    - Fe2O3
+
+黒さび:
+  is:
+    - Fe3O4

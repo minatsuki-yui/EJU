@@ -71,6 +71,7 @@ S:
 二酸化窒素:
   formula: NO2
   production: Cu + 4HNO3 -> Cu(NO3)2 + 2H2O + 2NO2 ···浓硝酸
+
 硝酸:
   formula: HNO3
   property:
@@ -83,6 +84,12 @@ S:
       - 3NO2 + H2O -> 2NH3 + NO
   note: オストワルト法
   equation: 2NO + O2 -> 2NO2 ∴ 不能排空气收集
+
+亜硝酸:
+  formula: H2NO2
+
+亜硝酸ナトリウム:
+  formula: NaNO2
 
 リン:
   formula: P

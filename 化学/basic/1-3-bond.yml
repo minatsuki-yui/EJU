@@ -12,7 +12,10 @@ meta:
     - 展性
     - 延性
   is:
-    - 金属 del Hg
+    - Na
+    - Al
+    - Zn
+    - Au
 
 イオン結晶:
   property:
