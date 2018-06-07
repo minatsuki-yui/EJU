@@ -9,19 +9,21 @@ meta:
       - 左巻きのらせん構造
     property:
       - 不溶于冷水
-    アミロース:
-      structure:
-        - 直链
-      property:
-        - 溶于温水
-        - I2 -> 濃青色
 
-    アミロペクチン:
-      structure:
-        - 支链
-      property:
-        - 不溶于温水
-        - I2 -> 赤紫色
+アミロース:
+  structure:
+    - 直链
+  property:
+    - 溶于温水
+    - I2 -> 濃青色
+
+アミロペクチン:
+  structure:
+    - 支链
+  property:
+    - 不溶于温水
+    - I2 -> 赤紫色
+
 グリコーゲン:
   structure:
     - α-ゲルコース *n ->脱水缩合
