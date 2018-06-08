@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 
-### 化学基礎
+### basics
 
 * [物質の構成](basic/composition.md)
     * [純物質·混合物](basic/pure_substance&mixture.md)
@@ -20,7 +20,7 @@
     * [中和滴定](basic/titration.md)
     * [酸化還元](basic/redox.md)
 
-### 化学
+### main
 
 * [物質の状態](chemistry/state.md)
     * [気体の性質](chemistry/gas.md)
