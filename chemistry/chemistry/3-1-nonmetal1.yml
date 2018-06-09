@@ -9,18 +9,6 @@ H2:
       equation: Zn + H2SO4 -> ZnSO4 + H2
   equation: H2 + CuO -> H2O + Cu
 
-Cl2:
-  production:
-    lab:
-      equation: MnO2 + 4HCl -> MnCl2 + 2H2O + Cl2
-  equation:
-      - NaBr + 2Cl2 -> 2HCl +Br2
-      - H2O + Cl2 -> HCl + HClO
-
-CaCl2:
-  note: 不能用于干燥NH3 会生成 CaCl2·8NH3
-  equation: CaCl2 + 8NH3 -> CaCl2·8NH3
-
 シリカゲル:
   formula: SiO2·H2O
   note: 硅胶 万能干燥剂(物理原理) 潮解
@@ -30,19 +18,13 @@ H2S:
     - 强还原性
 
 Ar:
+  desc: 发现者 レイリー＆ラムゼー
   property:
     - 空气中第三多
 蛍石:
   formula: CaF2
 
 ハロゲンの酸化合物:
-  HCl:
-    production:
-      lab: H2SO4 + NaCl -> 2Na2SO4 + 2HCl ···浓硫酸 固体 加热
-    inspection:
-      equations: NH3 + HCl -> NH4Cl
-      phenomenon: 白烟
-
   HF:
     production:
       lab:
@@ -51,13 +33,20 @@ Ar:
       - SiO2 + 6HF -> H2SiF6 + 2H2O
       - H2SiF6 -> SiF4 +2HF
 
-さらし粉:
-  formula: Ca(ClO)Cl·H2O
-  production: Ca(OH)2 + Cl2 -> Ca(ClO)Cl·H2O
-  equation: Ca(ClO)Cl·H2O + 2HCl -> CaCl2 + 2H2O + Cl2
+ヨウ素:
+  formula: I2
+  property:
+    - 黑紫色
+    - 固体
+    - 难溶于水
+    - 溶于ヘキサン
+    - 溶于アルコール
+    - 分子结晶
 
-高度さらし粉:
-  formula: Ca(ClO)2
+ヨウ素ヨウ化カリウム水溶液:
+  property:
+    - 褐色溶液
+    - ヨウ素デンプン反応
 
 ハロゲンの酸:
   note: 元素↑ => 非金属↑ => 对H吸引力 => 电离度↑ => 酸性↑

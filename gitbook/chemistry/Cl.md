@@ -20,7 +20,7 @@
 ## CaCl2:
 
 ```yaml
-※: 不能用于干燥NH3 会生成 CaCl2·8NH3
+笔记: 不能用于干燥NH3 会生成 CaCl2·8NH3
 反应方程: CaCl2 + 8NH3 -> CaCl2·8NH3
 
 ```
@@ -30,7 +30,7 @@
 ```yaml
 产物:
   实验室制法: H2SO4 + NaCl -> 2Na2SO4 + 2HCl ···浓硫酸 固体 加热
-inspection:
+存在于spection:
   反应方程s: NH3 + HCl -> NH4Cl
   现象: 白烟
 

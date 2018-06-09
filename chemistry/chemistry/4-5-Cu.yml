@@ -1,0 +1,47 @@
+meta:
+  title: Cu
+  type: main
+
+Cu:
+  property:
+    - 湿空气中生锈 产生绿青
+    - 赤色
+
+Cu2+:
+  property:
+    - 青色
+
+水酸化銅:
+  formula: Cu(OH)2
+  property:
+    - 青白色
+    - 沉淀
+  equation:
+    - Cu(OH)2 -> CuO + H2O ···加热
+
+硫酸銅:
+  formula: CuSO4
+
+'[Cu(NH3)4]2+':
+  property:
+    - 溶于水
+    - 深青色
+  structure: 平面正方形
+
+黃銅:
+  is:
+    - Cu
+    - Zn
+
+青銅:
+  is:
+    - Cu
+    - Sn
+
+白銅:
+  is:
+    - CU
+    - Ni
+
+绿青:
+  formula: CuCO3·Cu(OH)2

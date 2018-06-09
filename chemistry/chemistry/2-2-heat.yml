@@ -19,3 +19,16 @@ meta:
 equations:
   - C + O2 -> CO2
   - 2C + O2 -> 2CO
+
+冷却パック:
+  is:
+    - NH4NO3
+    - CO(NH2)2
+
+ルミノール:
+  formula: C8H7N3O2
+  property:
+    - 青色
+  desc: 塩基性条件下 铁触媒 H2O2反应 发出青色光
+  usage:
+    - 检验血迹

@@ -18,14 +18,14 @@
   - NaCO3 + SiO2 -> NaSiO3 + CO2  #also Na2O·SiO2
   - CaO + SiO2 -> CaSiO3 ···CaO·SiO2
 
-※: 漫长
+笔记: 漫长
 用途:
   - 玻璃
   - 石碱
   - 合成洗剤
 产物:
   工业制法: アンモニアソーダ法　(ソルベー法)
-  ※: NaHCO3 为止 => ソルベー法
+  笔记: NaHCO3 为止 => ソルベー法
 
 ```
 
@@ -85,8 +85,9 @@
 ## BaSO4:
 
 ```yaml
-color: 白
-可溶性:
+性质:
+  - 白色
+  - 沉淀
 用途:
   - X光造影剤
 
@@ -141,30 +142,6 @@ color: null
 ```yaml
 color: 白
 可溶性: null
-
-```
-
-## Cu2+:
-
-```yaml
-color: 青
-
-```
-
-## Cu(OH)2:
-
-```yaml
-可溶性: null
-color: 青白
-
-```
-
-## '[Cu(NH3)4]2+':
-
-```yaml
-可溶性: H2O
-color: 深青
-结构: 平面正方形
 
 ```
 

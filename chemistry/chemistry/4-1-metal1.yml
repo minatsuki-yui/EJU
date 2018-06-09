@@ -59,8 +59,9 @@ NaOH:
     - 加熱剤
 
 BaSO4:
-  color: 白
-  solubility:
+  property:
+    - 白色
+    - 沉淀
   usage:
     - X光造影剤
 
@@ -95,18 +96,6 @@ Zn+:
 ZnO:
   color: 白
   solubility: null
-
-Cu2+:
-  color: 青
-
-Cu(OH)2:
-  solubility: null
-  color: 青白
-
-'[Cu(NH3)4]2+':
-  solubility: H2O
-  color: 深青
-  structure: 平面正方形
 
 Ag+:
   color: null

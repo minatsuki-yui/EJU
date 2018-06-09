@@ -3,7 +3,7 @@
 ```yaml
 cn: 斐林试剂
 化学式: Cu2+ -> Cu2O #アルデヒド -> カルボン酸
-定义: 斐林试剂（Fehling's reagent）用来区分水溶性的醛及酮官能基，也可以用来测定单糖。
+定义: 斐林试剂（Fehl存在于g's reagent）用来区分水溶性的醛及酮官能基，也可以用来测定单糖。
 
 ```
 
@@ -13,7 +13,7 @@ cn: 斐林试剂
 価数: OH数量
 級: R数量
 αβ炭: OH相连的是α 远一个位置的是β => C(β)-C(α)-OH
-inspection: 2R-OH +2Na ->  2R-OHNa + H2
+存在于spection: 2R-OH +2Na ->  2R-OHNa + H2
 反应方程:
   脱水:
     CH3CH2OH:
@@ -138,7 +138,7 @@ inspection: 2R-OH +2Na ->  2R-OHNa + H2
 ## 銀鏡反応:
 
 ```yaml
-※: R-CHO 1:2 || H-CHO 1:4
+笔记: R-CHO 1:2 || H-CHO 1:4
 现象: 内壁析出银
 用途:
   - 检出還元性
@@ -151,6 +151,13 @@ inspection: 2R-OH +2Na ->  2R-OHNa + H2
 现象: Cu2O 赤色沉淀
 用途:
   - 检出還元性
+
+```
+
+## ヨードホルム:
+
+```yaml
+化学式: CHI3
 
 ```
 

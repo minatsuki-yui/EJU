@@ -1,5 +1,5 @@
 meta:
-  title: 亜鉛
+  title: Zn
   type: main
 
 亜鉛:
@@ -7,6 +7,7 @@ meta:
   property:
     - 带青色的银白色金属
     - 熔点较低
+    - 两性元素
   formula: ZnO
   equation:
     - Zn + 2HCl -> ZnCl2 + H2
@@ -41,6 +42,9 @@ meta:
   property:
     - 白色
     - 沉淀
+    - 溶于强酸强塩基
+    - 溶于过量NH3
+    - 两性水酸化物
   equation:
     - Zn2+ + 2OH- -> Zn(OH)2
     - Zn(OH)2 + 2HCl -> ZnCl2 + 2H2O

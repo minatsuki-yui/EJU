@@ -10,3 +10,10 @@ for e in p:
         d[k] = e[k]
 
 print(d)
+
+'''
+
+for book in notebooks:
+    a, b, filename = book.split('.')[0].split('-')
+    os.system(f'tail -n +4 "{book}" > "{filename}.md"')
+'''

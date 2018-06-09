@@ -1,0 +1,36 @@
+meta:
+  title: Sn&Pb
+  type: main
+
+すず:
+  formula: Sn
+  property:
+    - 两性元素
+    - 银白色
+    - 难腐蚀
+    - 熔点较低
+
+ブリキ:
+  alias: 马口铁
+  is:
+    - Fe
+    - Sn
+トタン:
+  is:
+    - Zn
+    - Sn
+
+無鉛はんだ:
+  is:
+    - Ag
+    - Cu
+
+鉛:
+  formula: Pb
+  property:
+    - 两性元素
+    - 青灰色
+    - 柔软
+    - 溶于硝酸
+    - 溶于强塩基
+  usage:  放射性遮蔽物质

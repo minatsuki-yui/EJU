@@ -1,0 +1,46 @@
+meta:
+  title: P
+  type: main
+
+リン:
+  formula: P
+  allotrope:
+    - 黄リン
+    - 赤リン
+  in:
+    - リン灰石
+
+リン灰石:
+  formula: Ca3(PO4)2
+
+黄リン:
+  property:
+    - 淡黄色
+    - 粉末
+    - 空気中自然発火
+
+赤リン:
+  property:
+    - 赤褐色
+    - 粉末
+  usage:
+    - 火柴
+
+十酸化四リン:
+  formula: P4O10
+  property:
+    - 白色结晶
+    - 吸湿性
+    - 酸性干燥剂
+  equation: 6H2O + P4O10 -> 4H3PO4
+
+リン酸:
+  property:
+    - 潮解性
+    - 结晶
+    - 无色
+    - 易溶于水
+  usage:
+    - PH调整剤
+    - 肥料
+    - 中强酸

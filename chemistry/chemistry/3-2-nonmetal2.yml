@@ -91,21 +91,6 @@ S:
 亜硝酸ナトリウム:
   formula: NaNO2
 
-リン:
-  formula: P
-  allotrope:
-    - 黄リン
-    - 赤リン
-  P4O10:
-    property:
-      - 白色结晶
-      - 吸湿性
-      - 酸性干燥剂
-    equation: 6H2O + P4O10 -> 4H3PO4
-
-黄リン:
-  property: 空気中自然発火
-
 ケイ素:
   formula: Si
   bond: 共有結合

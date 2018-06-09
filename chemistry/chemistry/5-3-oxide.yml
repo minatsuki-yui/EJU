@@ -118,6 +118,9 @@ meta:
   usage:
     - 检出還元性
 
+ヨードホルム:
+  formula: CHI3
+
 ヨードホルム反応:
   desc: I2 + NaOH -> CHI3
   phenomenon: 特殊臭气 黄色沉淀

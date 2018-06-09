@@ -2,11 +2,16 @@ meta:
   title: 平衡
   type: main
 
+ルシャトリエの原理:
+  desc: 平衡移动的原理
 # 以下标记由 aA + bB <--> cC + dD 为例
 
 反应速度:
   calculation: v = k[A]^a·[B]^b
   note: k值与 温度 催化剂 反应种类相关
+
+律速階段:
+  desc: 分步电离中决定整体反应速度的反应
 
 平衡定数:
   calculation: Kc = (k[C]^c·[D]^d)/(k[A]^a·[B]^b)
@@ -17,7 +22,8 @@ meta:
 
 缓冲液:
   desc: 弱酸+弱酸对应的塩 || 弱塩基+弱塩基对应的塩
-  note: CH3COOH & CH3COONa e.g 人体
+  note: CH3COOH & CH3COONa  || リン酸二水素イオン & リン酸水素イオン
+  example: 人体
 
 # 以下标记由 AnBm <--> nA + mB 为例
 
@@ -27,3 +33,9 @@ meta:
 equations:
   - H2 + I2 <-> 2HI
   - N2O4 <-> 2NO2
+
+三元触媒:
+  is:
+    - Pt
+    - Pd
+    - Rh

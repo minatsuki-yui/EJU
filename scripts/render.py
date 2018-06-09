@@ -1,16 +1,15 @@
 import os
+import yaml
+import summary
 
 
 class Maker(object):
     def __init__(self):
-
-        self.magic_dict = {'desc': '定义', 'formula': '化学式', 'property': '性质', 'equations': '反应方程', 'calculation': '计算公式',
-                           'phenomenon': '现象', 'production': '产物', 'note': '※', 'is': '包括', 'max': '最大的是',
-                           'have': '有此现象的', 'lab': '实验室制法', 'industry': '工业制法', 'usage': '用途', 'alias': '别名',
-                           'structure': '结构', 'example': '例子', 'bond': '结合', 'monomer': '単量体', 'allotrope': '同素异形体',
-                           'solubility': '可溶性'}
+        self.config_file = '../chemistry/meta.yml'
+        self.magic_dict = self.load_config(self.config_file)
         self.output_dir = '../../gitbook/chemistry/'
         self.working_dir = os.getcwd()
+        self.s = summary.Summary()
 
     def replace(self, s):
         for each in self.magic_dict:
@@ -20,6 +19,11 @@ class Maker(object):
                 s = s.replace('equation', '反应方程')
 
         return s
+
+    def load_config(self, f):
+        with open(f, 'r') as c:
+            conf = yaml.load(c.read())
+        return conf['predefine']
 
     def handle_line(self, s):
         s = self.replace(s)
@@ -35,11 +39,11 @@ class Maker(object):
         body = lines[4:]
         render_text = [self.handle_line(l) for l in body]
         render_text.append('```')
-        #print(render_text[0])
+        # print(render_text[0])
         name = f.split('-')[-1].split('.')[0] + '.md'
-        #print(name)
-        with open(self.output_dir+name,'w') as md:
-            md.write(''.join(render_text).split('\n',2)[-1])
+        # print(name)
+        with open(self.output_dir + name, 'w') as md:
+            md.write(''.join(render_text).split('\n', 2)[-1])
         print(''.join(render_text))
 
     @staticmethod
@@ -56,8 +60,17 @@ class Maker(object):
             # print(f)
             self.make_md(f)
 
+    def make(self):
+
+        self.make_files('../chemistry/chemistry')
+        self.make_files('../chemistry/basic')
+        self.make_summary()
+
+    def make_summary(self):
+        self.s.make()
+
 
 if __name__ == '__main__':
     m = Maker()
-    #m.make_md('../化学/basic/1-1-pure_substance&mixture.yml')
-    m.make_files('../化学/chemistry')
+    # m.make_md('../化学/basic/1-1-pure_substance&mixture.yml')
+    m.make_files('../chemistry/chemistry')

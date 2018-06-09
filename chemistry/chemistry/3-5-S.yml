@@ -1,0 +1,54 @@
+meta:
+  title: S
+  type: main
+
+硫黄:
+  formula: S
+  allotrope:
+    - 斜方硫黄
+    - 単斜硫黄
+    - ゴム状硫黄
+  phenomenon: 白濁
+
+二酸化硫黄:
+  formula: SO2
+  property:
+    - 無色
+    - 刺激臭
+    - 漂白作用
+    - 還元性
+  equation:
+    - H2O + H2S -> 2H2SO3
+  production:
+    - S + O2 -> SO2
+    - Cu + H2SO4 -> SO2 + CuSO4 + 2H2O
+三酸化硫黄:
+  formula: SO3
+  alias: 発煙硫酸
+  desc: 常温的无色针状液体 易升华
+  note: 发烟硫酸中的烟
+
+濃硫酸:
+  production:
+    industry:
+      - 2SO2 + O2 -> 2SO3 ···V2O5
+      - H2O  + SO3 -> H2SO4
+
+硫化水素:
+  formula: H2S
+  property:
+    - 弱酸
+    - 无色
+    - 腐卵臭
+    - 有毒
+  production: FeS + H2SO4 -> H2S + FeSO4
+
+硫化物イオン:
+  desc: |
+        CuS 黑
+        Ag2S 黑
+        PbS 黑
+        MnS 淡赤色
+        ZnS 白色
+        FeS 黑色
+        HgS 黑色 加热朱砂

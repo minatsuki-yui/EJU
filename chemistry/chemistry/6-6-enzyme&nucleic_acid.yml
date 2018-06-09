@@ -15,19 +15,28 @@ meta:
   structure:
     - 多数のヌクレオチド ->脱水缩合
     - 鎖状
-  ヌクレオチド:
-    components:
-      - 糖
-      - リン酸
-      - 塩基
-  DNA:
-    alias: デオキシリボ核酸
-    structure:
-      - 中间含有核
-      - 2本鎖の構造を持つ
-  RNA:
-    alias: リボ核酸
-    desc: 核和细胞质中両方存在
-    structure:
-      - 1本鎖の構造を持つ
-    usage: 参加蛋白质合成
+
+ヌクレオチド:
+  components:
+    - 糖
+    - リン酸
+    - 塩基
+
+リボース:
+  desc: 核糖
+
+DNA:
+  desc: 双螺旋发现者 ワトソン&クリック
+  alias: デオキシリボ核酸
+  structure:
+    - 中间含有核
+    - 2本鎖の構造を持つ
+RNA:
+  alias: リボ核酸
+  desc: 核和细胞质中両方存在
+  structure:
+    - 1本鎖の構造を持つ
+  usage: 参加蛋白质合成
+
+リボソーム:
+  desc: 核糖体

@@ -15,3 +15,6 @@ meta:
     calculation:
       - ∏·V = n·R·T
       - ∏ = c·R·T
+
+冷却曲線:
+  note: 反向延长线的y轴相减

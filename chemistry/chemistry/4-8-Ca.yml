@@ -1,0 +1,29 @@
+meta:
+  title: Ca
+  type: main
+
+硫酸カルシウム:
+  formula: CaSO4
+  property:
+    - 白色
+    - 粉末
+  in:
+    - 石膏
+    - 焼き石膏
+  usage:
+    - 建築材料
+    - 石膏像
+
+硫酸カルシウム二水和物:
+  alias: 石膏
+  formula: CaSO4·2H2O
+
+硫酸カルシウム半水和物:
+  alias: 焼き石膏
+  formula: CaSO4·1/2H2O
+
+生石灰:
+  formula: CaO
+  usage:
+    - 乾燥剤
+    - 加熱剤

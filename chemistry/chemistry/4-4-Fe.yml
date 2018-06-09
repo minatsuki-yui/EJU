@@ -1,5 +1,5 @@
 meta:
-  title: 無機金屬-1
+  title: Fe
   type: main
 
 Fe2+:
@@ -17,9 +17,54 @@ Fe3+:
   structure: 正八面体
 
 赤さび:
-  is:
-    - Fe2O3
+  formula: Fe2O3
 
 黒さび:
+  formula: Fe3O4
+
+
+赤鉄鉱:
+  formula: Fe2O3
+  color: 赤褐色
+
+黄鉄鉱:
+  formula: FeS
+
+銑鉄:
+  formula: C
+  desc: 4% C
+  property: もろい
+
+鋼:
+  formula: C
+  desc: 0.02~2
+
+ステンレス鋼:
   is:
-    - Fe3O4
+    - Fe
+    - Cr
+    - Ni
+  usage: 精密仪器
+
+Fe沈殿:
+  NaOH:
+    - Fe2+ => 綠白色
+    - Fe3+ => 赤褐色
+  Fe(CN):
+    - Fe2+ + Fe2+ => 青白色
+    - Fe2+ + Fe3+ => 濃青色
+    - Fe3+ + Fe3+ => 褐色
+    - Fe2+ + Fe2+ => 青白色
+  KSCN:
+    - Fe2+ => 変化なし
+    - Fe3+ => 血赤色溶液
+
+硫酸鉄七水合物:
+  formula: FeSO4·7H2O
+  property:
+    - 淡綠色
+
+ヘキサシアノ鉄酸カリウム:
+  formula: K3[Fe(CN)6]
+  property:
+    - 暗赤色
