@@ -1,0 +1,42 @@
+meta:
+  title: Ag
+  type: main
+
+Ag+:
+  color: null
+
+Ag2O:
+  color: 褐色
+  solubility: null
+
+'[Ag(NH3)2]+':
+  color: null
+  structure: 直線
+  solubility: H2O
+
+塩化銀:
+  property:
+    - 白色
+    - 沉淀
+    - 溶于氨水
+    - 溶于チオ硫酸ナトリウム
+臭化銀:
+  property:
+    - 淡黄色
+    - 沉淀
+    - 微溶于氨水
+    - 溶于チオ硫酸ナトリウム
+  usage:
+    - 感光剤
+ヨウ化銀:
+  property:
+    - 黄色
+    - 沉淀
+    - 不溶于氨水
+    - 溶于チオ硫酸ナトリウム
+
+
+フッ化銀:
+  formula: AgF
+  property:
+    - 溶于水

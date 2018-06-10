@@ -33,6 +33,9 @@ Cu2+:
     - Cu
     - Zn
 
+黃銅鉱:
+  formula: CuFeS2
+
 青銅:
   is:
     - Cu

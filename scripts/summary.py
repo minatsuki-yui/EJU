@@ -59,7 +59,7 @@ class Summary(object):
             with open(book, 'r') as f:
                 content = yaml.load(f.read())
             path = di + '/' + filename  # README'
-            print(path)
+            # print(path)
             title = content['meta']['title']
             file_summary = self.get_link(title, path)
             # print(file_summary)

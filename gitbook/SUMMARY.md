@@ -46,6 +46,7 @@
     * [Al](chemistry/Al.md)
     * [Sn&Pb](chemistry/Sn&Pb.md)
     * [Ca](chemistry/Ca.md)
+    * [Ag](chemistry/Ag.md)
 * [有機](chemistry/organic.md)
     * [官能基](chemistry/radical.md)
     * [炭化水素](chemistry/hydrocarbon.md)

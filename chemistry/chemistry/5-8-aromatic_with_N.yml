@@ -2,9 +2,8 @@ meta:
   title: 含窒素芳香族
   type: main
 
-アミル:
+アミン:
   structure: R-NH2
-  name: アミン
   example: アニリン
   desc:
     - 脂肪族アミン
@@ -44,3 +43,12 @@ meta:
 
 アミド結合:
   desc: -NH-CO-
+
+
+アゾ化合物:
+  desc: 分子間含有アゾ基-N=N-的化合物
+
+
+ジアゾ化:
+  equation:
+    - アニリン + NaNO2 + 2HCl -> 塩化ベンゼンジアゾニウム　+ NaCl + 2H2O ···0~5°C

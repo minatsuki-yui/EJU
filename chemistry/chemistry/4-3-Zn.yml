@@ -21,6 +21,15 @@ meta:
     - Fe
 
 
+
+Zn+:
+  color: null
+
+'[Zn(NH3)4]2+':
+  color: null
+  solubility: H2O
+  structure: 正四面体
+
 酸化亜鉛:
   alias: 亜鉛華
   formula: ZnO

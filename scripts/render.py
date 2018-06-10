@@ -13,14 +13,15 @@ class Maker(object):
 
     def replace(self, s):
         for each in self.magic_dict:
+            if 'equations' in s:
+                s = s.replace('equation', '反应方程')
             if each in s:
                 s = s.replace(each, self.magic_dict[each])
-            if 'equation' in s:
-                s = s.replace('equation', '反应方程')
 
         return s
 
-    def load_config(self, f):
+    @staticmethod
+    def load_config(f):
         with open(f, 'r') as c:
             conf = yaml.load(c.read())
         return conf['predefine']
@@ -73,4 +74,4 @@ class Maker(object):
 if __name__ == '__main__':
     m = Maker()
     # m.make_md('../化学/basic/1-1-pure_substance&mixture.yml')
-    m.make_files('../chemistry/chemistry')
+    m.make()

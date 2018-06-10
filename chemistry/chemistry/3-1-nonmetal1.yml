@@ -33,6 +33,9 @@ Ar:
       - SiO2 + 6HF -> H2SiF6 + 2H2O
       - H2SiF6 -> SiF4 +2HF
 
+ヘキサフルオロケイ酸:
+  formula: H2SiF6
+
 ヨウ素:
   formula: I2
   property:

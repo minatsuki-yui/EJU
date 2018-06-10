@@ -10,6 +10,13 @@ meta:
     - 难腐蚀
     - 熔点较低
 
+塩化スズ二水合物:
+  formula: SnCl2·2H2O
+  property:
+    - 强还原剂
+    - 无色
+    - 结晶
+
 ブリキ:
   alias: 马口铁
   is:
@@ -34,3 +41,8 @@ meta:
     - 溶于硝酸
     - 溶于强塩基
   usage:  放射性遮蔽物质
+
+塩化鉛:
+  formula: PbCl2
+  property:
+    - 溶于熱水

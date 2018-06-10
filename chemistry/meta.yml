@@ -46,6 +46,7 @@ predefine:
   solubility: 可溶性
   radicals: 官能基
   in: 存在于
+  class: 分类
 
 in_string_predefine:
   - is:

@@ -6,6 +6,8 @@ Al:
   property:
     - 两性元素
   usage: 高压电线
+  production:
+    - 酸化アルミニウム & 氷晶石 融解塩電解
   equation:
     - Al + 6HCl -> 2AlCl3 + 3H2
     - 2Al + 2NaOH + 6H2O -> 2Na[Al(OH)4] + 3H2
@@ -21,6 +23,10 @@ Al:
   in:
     - ルビー
     - サファイア
+    - ボーキサイト精制
+
+氷晶石:
+  formula: Na3AlF6
 
 水酸化アルミニウム:
   formula: Al(OH)3

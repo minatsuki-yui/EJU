@@ -27,3 +27,13 @@ meta:
   usage:
     - 乾燥剤
     - 加熱剤
+
+塩化カルシウム:
+  formula: CaCl2
+  property:
+    - 易溶于水
+    - 吸湿性
+    - 潮解性
+  usage:
+    - 干燥剂
+    - 融雪剂
