@@ -11,6 +11,7 @@ materials and notes for EJU
 
 > not stable
 
+```yaml
 words:
   desc: 定义
   formula: 化学式
@@ -36,23 +37,6 @@ words:
   radicals: 官能基
   in: 存在于
   class: 分类
-
-
----
-
-### About the normal update summary's rule
-
-> from May 27 2018
-
-`update XX(subject)-XXX(details)`
-
-| profix | meaning |
-| --- |---|
-| jp | 日本語 |  
-| c | 化学 |
-| p | 物理 |
-| m | 数学 |
-| w | スクリプト |
-| o | その他 |
+```
 
 ---
