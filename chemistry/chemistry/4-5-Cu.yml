@@ -6,6 +6,8 @@ Cu:
   property:
     - 湿空气中生锈 产生绿青
     - 赤色
+  equation:
+    - Cu + 2H2SO4 -> CuSO4 + 2H2O + SO2 ···热浓硫酸
 
 Cu2+:
   property:

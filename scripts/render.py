@@ -10,6 +10,7 @@ class Maker(object):
         self.output_dir = '../../gitbook/chemistry/'
         self.working_dir = os.getcwd()
         self.s = summary.Summary()
+        self.current_file = ''
 
     def replace(self, s):
         for each in self.magic_dict:
@@ -59,13 +60,18 @@ class Maker(object):
         notebooks = sorted([file for file in files if file.endswith('yml')])
         for f in notebooks:
             # print(f)
+            self.current_file = f
             self.make_md(f)
+        os.chdir('..')
 
     def make(self):
-
-        self.make_files('../chemistry/chemistry')
-        self.make_files('../chemistry/basic')
-        self.make_summary()
+        os.chdir('../chemistry/')
+        try:
+            self.make_files('basic')
+            self.make_files('chemistry')
+            self.make_summary()
+        except Exception:
+            raise SyntaxError(f'\nERROR in file {self.current_file}\n')
 
     def make_summary(self):
         self.s.make()

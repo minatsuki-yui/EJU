@@ -46,3 +46,18 @@ meta:
   formula: PbCl2
   property:
     - 溶于熱水
+
+酸化鉛Ⅱ:
+  formula: PbO
+  property:
+    - 黄色
+
+酸化鉛IV:
+  formula: PbO
+  property:
+    - 黄色
+
+四酸化三鉛:
+  formula: Pb3O4
+  property:
+    - 黄色

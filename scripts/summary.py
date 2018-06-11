@@ -4,7 +4,7 @@ import yaml
 
 class Summary(object):
     def __init__(self):
-        self.root = '../chemistry/'
+        self.root = ''#'../chemistry/'
         self.output = '../gitbook/SUMMARY.md'
         self.sections = ['basic', 'chemistry']
 

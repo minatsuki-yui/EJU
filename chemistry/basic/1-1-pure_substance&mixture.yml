@@ -18,7 +18,6 @@ meta:
   note: SCOPで探せ
 
 炎色反応:
-  flame_color:
     Li : 赤
     Sr : 紅
     Ca : オレンジ
