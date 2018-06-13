@@ -22,7 +22,7 @@ class Maker(object):
             if 'equations:' in s:
                 s = s.replace('equation:', '反应方程:')
             if each in s:
-                s = s.replace(each, self.magic_dict[each[:-1]])
+                s = s.replace(each[:-1], self.magic_dict[each[:-1]])
 
         return s
 
