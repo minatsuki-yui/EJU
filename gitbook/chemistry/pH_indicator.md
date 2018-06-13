@@ -1,7 +1,7 @@
 ## PH指示剂:
 
 ```yaml
-分类:
+分类
   - メチルオレンジ
   - メチルレッド
   - ブロモチモールブルー
@@ -36,6 +36,6 @@ range: 黃 ← 6~8 → 青
 ## フェノールフタレイン:
 
 ```yaml
-en: phenolphthale存在于
+en: phenolphthalein
 range: 無 ← 8~10 → 赤
 ```
