@@ -27,7 +27,8 @@ HCl:
 さらし粉:
   formula: Ca(ClO)Cl·H2O
   production: Ca(OH)2 + Cl2 -> Ca(ClO)Cl·H2O
-  equation: Ca(ClO)Cl·H2O + 2HCl -> CaCl2 + 2H2O + Cl2
+  equation:
+    - Ca(ClO)Cl·H2O + 2HCl -> CaCl2 + 2H2O + Cl2
 
 高度さらし粉:
   formula: Ca(ClO)2

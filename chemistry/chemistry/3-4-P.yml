@@ -32,7 +32,8 @@ meta:
     - 白色结晶
     - 吸湿性
     - 酸性干燥剂
-  equation: 6H2O + P4O10 -> 4H3PO4
+  equation:
+    - 6H2O + P4O10 -> 4H3PO4
 
 リン酸:
   property:

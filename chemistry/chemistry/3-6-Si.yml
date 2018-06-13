@@ -16,6 +16,7 @@ meta:
     - 粘性
   usage:
     - 粘着剂
+
 シリカゲル:
   production: Na2SiO2 + 2HCl -> 2NaCl + H2SiO3
   #ゲル状ケイ酸加热脱水

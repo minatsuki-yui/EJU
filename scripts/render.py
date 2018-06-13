@@ -11,11 +11,16 @@ class Maker(object):
         self.working_dir = os.getcwd()
         self.s = summary.Summary()
         self.current_file = ''
+        self.replace_dict = {}
+        [self.add_replace_dict(e) for e in self.magic_dict]
+
+    def add_replace_dict(self, e):
+        self.replace_dict[e + ':'] = self.magic_dict[e]
 
     def replace(self, s):
-        for each in self.magic_dict:
-            if 'equations' in s:
-                s = s.replace('equation', '反应方程')
+        for each in self.replace_dict:
+            if 'equations:' in s:
+                s = s.replace('equation:', '反应方程:')
             if each in s:
                 s = s.replace(each, self.magic_dict[each])
 

@@ -11,16 +11,21 @@ meta:
     note: 中和时HP偏向强酸\塩基一方
 
   器具:
-    メスフラスコ:
-      en: Messflasche && volumetric flask
+    - メスフラスコ
+    - ホールピペット
+    - ビュレット
+    - コニカルビーカー
 
-    ホールピペット:
-      en: whole pipet
-      note: 共洗い
+メスフラスコ:
+  en: Messflasche && volumetric flask
 
-    ビュレット:
-      en: burette
-      note: 共洗い
+ホールピペット:
+  en: whole pipet
+  note: 共洗い
 
-    コニカルビーカー:
-      en: beaker
+ビュレット:
+  en: burette
+  note: 共洗い
+
+コニカルビーカー:
+  en: beaker

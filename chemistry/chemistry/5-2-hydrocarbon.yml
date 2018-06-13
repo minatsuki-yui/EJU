@@ -64,6 +64,9 @@ meta:
   usage:
     - 溶接
 
+ブタン:
+  formula: C4H10
+
 エタノール:
   alias: エチルアルコール
   formula: C2H5OH

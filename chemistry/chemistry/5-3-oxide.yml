@@ -18,6 +18,7 @@ meta:
          catalyst: 濃H2SO4
          130~140: CH3CH2OCH2CH3
          160~170: CH2=CH2
+  note: アルコール酸化 => アルデヒド => カルボン酸
 
   property:
     - 易溶於水
@@ -108,7 +109,7 @@ meta:
 ケトン:
   desc: 第二级アルコール酸化　还原生成第二级アルコール 难以继续酸化
 
-アセント:
+アセトン:
   property:
     - 無色
     - 芳香
@@ -116,8 +117,8 @@ meta:
     - 溶于有机溶剂
   production:
     lab:
-      - 2-プロパノール -> アセント ···K2Cr2O7
-      - (CH3COO)2Na -> CaCO3 + アセント ···加热 ～乾留
+      - 2-プロパノール -> アセトン ···K2Cr2O7
+      - (CH3COO)2Na -> CaCO3 + アセトン ···加热 ～乾留
     industry: クメン法副產物
   usage:
     - 涂料

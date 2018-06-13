@@ -25,18 +25,43 @@ AgI:
   color: 黄色
   solubility: null
 
-CrO4:
-  equation: CrO42- <-> Cr2O72-
+クロム酸カリウム:
+  formula: K2CrO4
+  property:
+    - 黄色
+    - 结晶
+    - 水溶液酸性 => 二クロム酸イオン
 
-Ag2CrO4:
-  solubility: null
-  color: 暗赤
-PbCrO4:
-  solubility: null
-  color: 黃色
+クロムイオン:
+  formula: Cr3+
+  property:
+    - 暗绿色
+  equation:
+    - Cr2O72- + 14H+ + 6e -> 2Cr3+ + 7H2O ···硫酸酸性
+
+二クロム酸カリウム:
+  formula: K2Cr2O7
+  property:
+    - 赤橙色
+    - 结晶
+    - 水溶液塩基性 => 二クロム酸イオン
+
+クロム酸銀:
+  formula: Ag2CrO4
+  property:
+    - 暗赤色
+    - 沉淀
+
+クロム酸鉛:
+  formula: PbCrO4
+  property:
+    - 黃色
+    - 沉淀
+
 BaCrO4:
-  solubility: null
-  color: 黃色
+  formula: BaCrO4
+  property:
+    - 黃色
 
 アクチノイド:
   desc: 89~106元素
