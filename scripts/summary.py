@@ -2,6 +2,7 @@ import os
 import yaml
 
 
+
 class Summary(object):
     def __init__(self):
         self.root = ''#'../chemistry/'
