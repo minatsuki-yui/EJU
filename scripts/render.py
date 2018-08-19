@@ -7,7 +7,7 @@ class Maker(object):
     def __init__(self):
         self.config_file = '../chemistry/meta.yml'
         self.magic_dict = self.load_config(self.config_file)
-        self.output_dir = '../../gitbook/chemistry/'
+        self.output_dir = ''
         self.working_dir = os.getcwd()
         self.s = summary.Summary()
         self.current_file = ''
@@ -43,15 +43,20 @@ class Maker(object):
 
     def make_md(self, f):
         lines = self.read_file_lines(f)
+        with open(f, 'r') as y:
+            content = yaml.load(y.read())
         body = lines[4:]
         render_text = [self.handle_line(l) for l in body]
         render_text.append('```')
         # print(render_text[0])
+        title = '# ' + content['meta']['title'] + '\n\n'
+
         name = f.split('-')[-1].split('.')[0] + '.md'
-        # print(name)
+
+        md_text = ''.join(render_text).split('\n', 2)[-1]
         with open(self.output_dir + name, 'w') as md:
-            md.write(''.join(render_text).split('\n', 2)[-1])
-        print(''.join(render_text))
+            md.write(title + md_text)
+            # print(''.join(render_text))
 
     @staticmethod
     def read_file_lines(path_to_file):
@@ -62,6 +67,7 @@ class Maker(object):
     def make_files(self, path_to_files):
         files = os.listdir(path_to_files)
         os.chdir(path_to_files)
+        self.output_dir = f'../../gitbook/{path_to_files}/'
         notebooks = sorted([file for file in files if file.endswith('yml')])
         for f in notebooks:
             # print(f)

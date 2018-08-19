@@ -45,6 +45,9 @@
   formula: CH4
 
 ダイヤモンド:
+  allotrope:
+    - フラーレン
+    - 黒鉛
   property: 立体网状结构
   formula: C
   bond: 共有結合
