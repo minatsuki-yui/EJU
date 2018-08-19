@@ -1,0 +1,10 @@
+{
+            '/basic/': [
+                'alkali',
+                'bond'
+            ],
+            '/chemistry/': [
+                'Ag',
+                'Al'
+            ]
+        }

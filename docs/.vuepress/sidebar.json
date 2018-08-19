@@ -1,0 +1,105 @@
+{
+    "/basic/": [
+        {
+            "title": "物質の構成",
+            "children": [
+                "pureSubstanceWithMixture",
+                "periodicTable",
+                "bond",
+                "shape",
+                "lattice"
+            ]
+        },
+        {
+            "title": "物質量と化学反応式",
+            "children": [
+                "solution",
+                "law"
+            ]
+        },
+        {
+            "title": "物質の変化",
+            "children": [
+                "alkali",
+                "neutralization",
+                "pHIndicator",
+                "titration",
+                "redox"
+            ]
+        }
+    ],
+    "/chemistry/": [
+        {
+            "title": "物質の状態",
+            "children": [
+                "gas",
+                "elevationWithDepression",
+                "colloid"
+            ]
+        },
+        {
+            "title": "熱·電·平衡",
+            "children": [
+                "batteryWithElectrolysis",
+                "heat",
+                "balance"
+            ]
+        },
+        {
+            "title": "無機非金屬",
+            "children": [
+                "nonmetal1",
+                "nonmetal2",
+                "Cl",
+                "P",
+                "S",
+                "Si"
+            ]
+        },
+        {
+            "title": "無機金屬",
+            "children": [
+                "metal1",
+                "metal2",
+                "Na",
+                "Zn",
+                "Fe",
+                "Cu",
+                "Al",
+                "SnWithPb",
+                "Ca",
+                "Ag"
+            ]
+        },
+        {
+            "title": "有機",
+            "children": [
+                "radical",
+                "hydrocarbon",
+                "oxide",
+                "carboxylicAcid",
+                "fats",
+                "aromatic",
+                "aromaticWithO",
+                "aromaticWithN"
+            ]
+        },
+        {
+            "title": "高分子",
+            "children": [
+                "macromolecule",
+                "classification",
+                "fiber",
+                "plus",
+                "monosaccharide",
+                "disaccharide",
+                "polysaccharide",
+                "aminoAcid",
+                "enzymeWithNucleicAcid",
+                "protein",
+                "resin",
+                "gom"
+            ]
+        }
+    ]
+}

@@ -4,3 +4,7 @@ _chemistry_book
 _book
 test.json
 test.txt
+docs/basic
+docs/chemistry
+docs/.vuepress/dist
+node_modules
