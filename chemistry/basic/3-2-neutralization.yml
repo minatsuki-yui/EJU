@@ -8,6 +8,7 @@ meta:
 中和反応:
   desc: 酸 + 塩基 → 塩 + 水
   calculation: a·c·v = b·c'·v'
+  example: 吾妻川
 
 塩の分類:
   正塩: 没H、OH剩下的盐

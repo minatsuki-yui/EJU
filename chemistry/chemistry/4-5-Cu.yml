@@ -8,10 +8,14 @@ Cu:
     - 赤色
   equation:
     - Cu + 2H2SO4 -> CuSO4 + 2H2O + SO2 ···热浓硫酸
+    - Cu + Cl2 -> CuCl2 ···加热
 
 Cu2+:
   property:
     - 青色
+
+塩化銅(II):
+  formula: CuCl2
 
 水酸化銅:
   formula: Cu(OH)2

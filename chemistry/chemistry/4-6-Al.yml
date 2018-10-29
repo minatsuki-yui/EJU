@@ -14,7 +14,7 @@ Al:
 
 酸化アルミニウム:
   formula: Al2O3
-  alias: アルミナ
+  alias: アルミナ(純粋な酸化アルミニウム)
   property:
     - 两性酸化物
   equation:

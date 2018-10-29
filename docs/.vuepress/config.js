@@ -2,10 +2,11 @@ const sidebarConfig = require('./sidebar.json')
 module.exports = {
     title: 'EJU',
     description: 'EJU chemistry notes',
-    host: 'localhost',
     head: [
         ['link', {rel: 'icon',  href: '/favicon.ico'}]
     ],
+    ga: 'UA-127908059-1',
+    serviceWorker: true,
     themeConfig: {
         nav: [
             {text: 'Home', link: '/'},

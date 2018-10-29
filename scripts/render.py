@@ -66,7 +66,7 @@ class Maker(object):
     def make_files(self, path_to_files):
         files = os.listdir(path_to_files)
         os.chdir(path_to_files)
-        self.output_dir = f'../../gitbook/{path_to_files}/'
+        self.output_dir = f'../../docs/{path_to_files}/'
         notebooks = sorted([file for file in files if file.endswith('yml')])
         for f in notebooks:
             # print(f)

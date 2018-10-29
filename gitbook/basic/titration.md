@@ -46,3 +46,9 @@ en: burette
 ```yaml
 en: beaker
 ```
+
+## 安全ピペッター:
+
+```yaml
+en: pipette
+```

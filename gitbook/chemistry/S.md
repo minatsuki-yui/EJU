@@ -23,6 +23,7 @@
   - 還元性
 反应方程:
   - H2O + H2S -> 2H2SO3
+  - H2O2 + H2S -> 2H2O + S
 产物:
   - S + O2 -> SO2
   - Cu + H2SO4 -> SO2 + CuSO4 + 2H2O

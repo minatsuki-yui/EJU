@@ -8,7 +8,6 @@ materials and notes for EJU
 - 中日英混合
 
 ### update:
-publish vuepress version at: [https://eju.netlify.com/](https://eju.netlify.com/)
+vuepress: [https://eju.netlify.com/](https://eju.netlify.com/)
 
 gitbook: [https://yue.gitbook.io/chemistry/](https://yue.gitbook.io/chemistry/)
-
