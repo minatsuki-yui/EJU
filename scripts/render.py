@@ -23,7 +23,6 @@ class Maker(object):
                 s = s.replace('equation:', '反应方程:')
             if each in s:
                 s = s.replace(each[:-1], self.magic_dict[each[:-1]])
-
         return s
 
     @staticmethod

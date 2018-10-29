@@ -1,0 +1,197 @@
+{
+    "editor.fontSize": 16,
+    "editor.lineHeight": 19,
+    "explorer.openEditors.visible": 0,
+    "editor.fontWeight": "500",
+    "editor.fontFamily": "Verdana",
+    "editor.letterSpacing": 0.5,
+    "editor.wordWrap": "off",
+    "terminal.integrated.fontFamily":"'Meslo LG M Bold for Powerline 14pt'",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [ {
+            "scope": [
+              "comment",
+              "comment.block",
+              "comment.block.documentation",
+              "comment.line",
+              "constant",
+              "constant.character",
+              "constant.character.escape",
+              "constant.numeric",
+              "constant.numeric.integer",
+              "constant.numeric.float",
+              "constant.numeric.hex",
+              "constant.numeric.octal",
+              "constant.other",
+              "constant.regexp",
+              "constant.rgb-value",
+              "emphasis",
+              "entity",
+              "entity.name",
+              "entity.name.class",
+              "entity.name.function",
+              "entity.name.method",
+              "entity.name.section",
+              "entity.name.selector",
+              "entity.name.tag",
+              "entity.name.type",
+              "entity.other",
+              "entity.other.attribute-name",
+              "entity.other.inherited-class",
+              "invalid",
+              "invalid.deprecated",
+              "invalid.illegal",
+              "keyword",
+              "keyword.control",
+              "keyword.operator",
+              "keyword.operator.new",
+              "keyword.operator.assignment",
+              "keyword.operator.arithmetic",
+              "keyword.operator.logical",
+              "keyword.other",
+              "markup",
+              "markup.bold",
+              "markup.changed",
+              "markup.deleted",
+              "markup.heading",
+              "markup.inline.raw",
+              "markup.inserted",
+              "markup.italic",
+              "markup.list",
+              "markup.list.numbered",
+              "markup.list.unnumbered",
+              "markup.other",
+              "markup.quote",
+              "markup.raw",
+              "markup.underline",
+              "markup.underline.link",
+              "meta",
+              "meta.block",
+              "meta.cast",
+              "meta.class",
+              "meta.function",
+              "meta.function-call",
+              "meta.preprocessor",
+              "meta.return-type",
+              "meta.selector",
+              "meta.tag",
+              "meta.type.annotation",
+              "meta.type",
+              "punctuation.definition.string.begin",
+              "punctuation.definition.string.end",
+              "punctuation.separator",
+              "punctuation.separator.continuation",
+              "punctuation.terminator",
+              "storage",
+              "storage.modifier",
+              "storage.type",
+              "string",
+              "string.interpolated",
+              "string.other",
+              "string.quoted",
+              "string.quoted.double",
+              "string.quoted.other",
+              "string.quoted.single",
+              "string.quoted.triple",
+              "string.regexp",
+              "string.unquoted",
+              "strong",
+              "support",
+              "support.class",
+              "support.constant",
+              "support.function",
+              "support.other",
+              "support.type",
+              "support.type.property-name",
+              "support.variable",
+              "variable",
+              "variable.language",
+              "variable.name",
+              "variable.other",
+              "variable.other.readwrite",
+              "variable.parameter"
+            ],
+            "settings": {
+              "fontStyle": ""
+            }
+          },
+            {
+                "scope": "meta.tag punctuation",
+                "settings": {
+                    "foreground": "#71d7ff"
+                }
+            },
+            {
+                "scope": "entity.other.attribute-name",
+                "settings": {
+                    "foreground": "#FDE86C"
+                }
+            },
+            {
+                "scope": "punctuation.separator",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "punctuation.separator.continuation punctuation.terminator",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "punctuation.definition.string",
+                "settings": {
+                    "foreground": "#9aca31"
+                }
+            },
+            {
+                "scope": "support.type.property-name",
+                "settings": {
+                    "foreground": "#9ca9d3"
+                }
+            },
+            {
+                "scope": "keyword",
+                "settings": {
+                    "foreground": "#DF4B94"
+                }
+            },
+            {
+                "scope": "keyword.operator.arithmetic",
+                "settings": {
+                    "foreground": "#df4b4b"
+                }
+            },
+            {
+                "scope": "keyword.operator.assignment",
+                "settings": {
+                    "foreground": "#df4b4b"
+                }
+            },
+            {
+                "scope": "punctuation.definition.template-expression",
+                "settings": {
+                    "foreground": "#9ca9d3"
+                }
+            },
+        ],
+        "functions": "#FDE86C",
+        "keywords": "#DF4B94",
+        "numbers": "#AE81FF",
+        "strings": "#9aca31",
+        "variables": "#dadacd",
+        "comments": "#75715E"
+    },
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#000000",
+        "panel.background": "#000000",
+        "sideBar.background": "#1d1d1d",
+        "activityBar.border": "#000000",
+        "activityBar.foreground": "#afafaf",
+        "activityBar.background": "#000"
+    },
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "simple-icons",
+    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin/python3"
+}

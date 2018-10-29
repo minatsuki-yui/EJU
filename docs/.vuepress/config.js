@@ -14,5 +14,5 @@ module.exports = {
             {text: 'twitter', link: 'https://twitter.com/nerd_yue'}
         ],
         sidebar: sidebarConfig
-    }
+    },
 }
