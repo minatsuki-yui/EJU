@@ -62,7 +62,7 @@
     * [分類](chemistry/classification.md)
     * [合成繊維](chemistry/fiber.md)
     * [その他](chemistry/plus.md)
-    * [その他](chemistry/burn.md)
+    * [燃え方](chemistry/burn.md)
     * [单糖类](chemistry/monosaccharide.md)
     * [二糖类](chemistry/disaccharide.md)
     * [多糖类](chemistry/polysaccharide.md)

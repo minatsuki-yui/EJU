@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "4ef76bdfd25eeabff5995880fd955334"
+    "revision": "a3c0afee7828f3f0bc49bbf98b51163a"
   },
   {
     "url": "assets/css/0.styles.cc2a2ebf.css",
@@ -148,8 +148,8 @@ self.__precacheManifest = [
     "revision": "c545a6a17db0e0b0f05e2427dc706d42"
   },
   {
-    "url": "assets/js/37.d015df25.js",
-    "revision": "90908056ba98138a6eb8b0e57630ff84"
+    "url": "assets/js/37.90100cd8.js",
+    "revision": "ba961fcb44ff2c68192b25db79ab3e20"
   },
   {
     "url": "assets/js/38.818430b7.js",
@@ -256,8 +256,8 @@ self.__precacheManifest = [
     "revision": "6838822d8eda096e867ca35e1c31e898"
   },
   {
-    "url": "assets/js/61.b0797085.js",
-    "revision": "8876c0a7a2223246684d9dfe022ed357"
+    "url": "assets/js/61.ffa08ff4.js",
+    "revision": "a929b71c7f56ba85786a1a8559db6cd7"
   },
   {
     "url": "assets/js/7.191dfcc9.js",
@@ -272,240 +272,240 @@ self.__precacheManifest = [
     "revision": "fc325b3dbffb2ed5801c4dff6e3a10b2"
   },
   {
-    "url": "assets/js/app.8e52f4a9.js",
-    "revision": "6e7038ab97f215413583f6c33833f6a5"
+    "url": "assets/js/app.49c7db9d.js",
+    "revision": "8cfcd634766c689aced5f3afeed61888"
   },
   {
     "url": "basic/alkali.html",
-    "revision": "c68b409ee8898840aa9ce377b8d029ea"
+    "revision": "55d68d3cfd6def35c91f3d6bbfa74a30"
   },
   {
     "url": "basic/bond.html",
-    "revision": "24b7f31b4deed9a644bf23975259a70f"
+    "revision": "973f0b1826934fbc305605b4f67905fa"
   },
   {
     "url": "basic/index.html",
-    "revision": "aa18f2f245f6b4ac709f91ab7a628128"
+    "revision": "acdff8cd60327371a1de82ad8d3170a7"
   },
   {
     "url": "basic/lattice.html",
-    "revision": "dc37a529f85b0176908ad90acecaeec9"
+    "revision": "d57e068b22d198dc02e7cd1dacd20844"
   },
   {
     "url": "basic/law.html",
-    "revision": "d2d5afd0a7163be34bce025fd2610962"
+    "revision": "dff8fed808cac1110d9debe77c31311a"
   },
   {
     "url": "basic/neutralization.html",
-    "revision": "a4fe6418712761cff3781fcc5a80cfdc"
+    "revision": "3538ead51d2d06e40407da2705b0bd45"
   },
   {
     "url": "basic/periodicTable.html",
-    "revision": "b0197b1696781487abd91ecd24f2708a"
+    "revision": "2e45880332d8a4a78999441f73f4f8e0"
   },
   {
     "url": "basic/pHIndicator.html",
-    "revision": "8db2561645a55f1dc23dd135f4a69096"
+    "revision": "a85fd9e77be661d009044f22f81e78f3"
   },
   {
     "url": "basic/pureSubstanceWithMixture.html",
-    "revision": "8dc19e468912f72be25c76539b270dc8"
+    "revision": "f05eda74a50d3bbc81e830765cf2b746"
   },
   {
     "url": "basic/redox.html",
-    "revision": "16b705dc41c753627fe6b648433f0dc6"
+    "revision": "ea53144145a006b33da6773d91f9553d"
   },
   {
     "url": "basic/shape.html",
-    "revision": "6db96b86012439dec3fb22b08944aa3a"
+    "revision": "a437e468bee0203fa457fb0c8e4204be"
   },
   {
     "url": "basic/solution.html",
-    "revision": "7454789575739f69730589d9fd58f874"
+    "revision": "241e9a9ed9abb29f663571c4a5f5bdfb"
   },
   {
     "url": "basic/titration.html",
-    "revision": "f7380752ebfdf6347e723cecaf6aa10e"
+    "revision": "42ef9a1d98d9e58eeb02bdfbf0868b6c"
   },
   {
     "url": "chemistry/Ag.html",
-    "revision": "964ad3e5b5f4084d805abffcdaa151f1"
+    "revision": "3b2aea0aab2d856b6da89da0b2ee5781"
   },
   {
     "url": "chemistry/Al.html",
-    "revision": "bf6887b1aafe11e95556b9615af89f98"
+    "revision": "7fa98f95288825a479486eccc70ec8da"
   },
   {
     "url": "chemistry/aminoAcid.html",
-    "revision": "49daaeeca80139864a2892fbc5482605"
+    "revision": "4812c094d5d4c47504c084addcfd1fb2"
   },
   {
     "url": "chemistry/aromatic.html",
-    "revision": "d8d6368b0f8c1d460746bd7f3d5fed32"
+    "revision": "65247f5e94a2820a825c0c88329d3169"
   },
   {
     "url": "chemistry/aromaticWithN.html",
-    "revision": "3e637853c84ce05de09b4e85040a222a"
+    "revision": "19c7f78a861d1b307640e1d1cee66da0"
   },
   {
     "url": "chemistry/aromaticWithO.html",
-    "revision": "6f058a6baae2bb6b8552fce5e55bd0d3"
+    "revision": "4593e1d38ada90d02b157984ee36b6b6"
   },
   {
     "url": "chemistry/balance.html",
-    "revision": "fa390b1f8e7d0bd8b794bb3f497d3871"
+    "revision": "a4c2a1d8627103387e1af421da9c354e"
   },
   {
     "url": "chemistry/batteryWithElectrolysis.html",
-    "revision": "5ea9db93a22d640ce23d3fd993ebb22f"
+    "revision": "a4f731d97fae1eab2695c2b24a61d3a3"
   },
   {
     "url": "chemistry/burn.html",
-    "revision": "d0020e6a6b4a143c484070b470d6140d"
+    "revision": "0853da74cfb385350b8a4d04c3d273f8"
   },
   {
     "url": "chemistry/Ca.html",
-    "revision": "433984e79fad53b2fcc3912ab44e9334"
+    "revision": "0e2941e85f0b8b413ac7ea5cbd643885"
   },
   {
     "url": "chemistry/carboxylicAcid.html",
-    "revision": "2924bf1de5e62b72aea1be2a091af5c0"
+    "revision": "8d92825f5d3bf03f0f2d7752731b9e1c"
   },
   {
     "url": "chemistry/Cl.html",
-    "revision": "be8b6bfb93afe4ff3f604591688c3438"
+    "revision": "da7e3df24198531b21141741e9e48c66"
   },
   {
     "url": "chemistry/classification.html",
-    "revision": "87c891b82994ec3a693f6259f055d1d6"
+    "revision": "fd01fcab53e1ad18bc0d496bc95fa68f"
   },
   {
     "url": "chemistry/colloid.html",
-    "revision": "3ac453b3f9a0df7adb0fcd2ad6603f07"
+    "revision": "ed99b3c788e4943f86b48a48823baa3f"
   },
   {
     "url": "chemistry/Cu.html",
-    "revision": "01e68cb4d8c15f2072a73f24d25be6b2"
+    "revision": "e4fcd66b7d420632a570734f798f66f6"
   },
   {
     "url": "chemistry/disaccharide.html",
-    "revision": "52aeba9026d0678bd57d796761e1df03"
+    "revision": "bbb2cb8d762a42b4b128aef0bcbed6c7"
   },
   {
     "url": "chemistry/elevationWithDepression.html",
-    "revision": "e3ec7fb201c77f71329e00801074a045"
+    "revision": "152183931ca4ec610145c63976ece69c"
   },
   {
     "url": "chemistry/enzymeWithNucleicAcid.html",
-    "revision": "9c91686aac99169a409e6d691544442d"
+    "revision": "6cbb88fe9f5cc08302dfd03a12f0e0a6"
   },
   {
     "url": "chemistry/fats.html",
-    "revision": "a77b130ea07a57b5280a063dfa1a7254"
+    "revision": "9eedb98854149ded2bea996ca23c9674"
   },
   {
     "url": "chemistry/Fe.html",
-    "revision": "43ff90223f2ab2d89ac313eafc008ce8"
+    "revision": "7b9403455e46654aedc79f0e227c16eb"
   },
   {
     "url": "chemistry/fiber.html",
-    "revision": "0f0d07b32176a0311a1e8b02faeef952"
+    "revision": "c3b8776c149d77ce66a21a63ad5eb918"
   },
   {
     "url": "chemistry/gas.html",
-    "revision": "4dc2035ded514eceb57b6b6bdfed0373"
+    "revision": "43338254a57c3ff76f0db9dbbeb02372"
   },
   {
     "url": "chemistry/gom.html",
-    "revision": "88be509df74816302fb36fa1f22bca48"
+    "revision": "7868605248f10b22e01224c903657c2e"
   },
   {
     "url": "chemistry/heat.html",
-    "revision": "3e4087a18345cb652d9b3e33fc772fa2"
+    "revision": "0a929ec4e0d95095f51dea4568f42ad6"
   },
   {
     "url": "chemistry/hydrocarbon.html",
-    "revision": "c28be134225280312ece2f4db681e724"
+    "revision": "6372ffb563c8d413dcbb4e9442971e92"
   },
   {
     "url": "chemistry/index.html",
-    "revision": "94f29abd8e45f41c43daeb33cfec7b74"
+    "revision": "20312576df460dee71967442309dde93"
   },
   {
     "url": "chemistry/macromolecule.html",
-    "revision": "61f0977d6cb9a1070ce3c49a822f0e86"
+    "revision": "14029944f4e3528e822069a4cb3c829a"
   },
   {
     "url": "chemistry/metal1.html",
-    "revision": "9c9085644749011f89971fd9d3086245"
+    "revision": "8d411595f44895c80f8cd254dfc3de59"
   },
   {
     "url": "chemistry/metal2.html",
-    "revision": "c8e36ece7467fed781e1b37bbf5fbccb"
+    "revision": "ab77b6edaa5a55567a891c386358deee"
   },
   {
     "url": "chemistry/monosaccharide.html",
-    "revision": "19147fe38cabc8d1d577fa89081fec26"
+    "revision": "e0055d76bbd2be99a18b50003581dc1d"
   },
   {
     "url": "chemistry/Na.html",
-    "revision": "8e47a43091712410b6e837687a21cd10"
+    "revision": "d7b3d36902a1aef8998b97dbda5ffc8d"
   },
   {
     "url": "chemistry/nonmetal1.html",
-    "revision": "8c7005c24f99938525326eaad530b2f3"
+    "revision": "133e5c88127e218c4af5facea2c570ac"
   },
   {
     "url": "chemistry/nonmetal2.html",
-    "revision": "d64d77c2c71cdc0186a06cfb0a708825"
+    "revision": "3cef4a94d7f0fb04b021ebb7fbba7603"
   },
   {
     "url": "chemistry/oxide.html",
-    "revision": "59d1a7bc7a6913e2cd9918191909d3df"
+    "revision": "c99df91186181e41d0ec6e42c21ad03c"
   },
   {
     "url": "chemistry/P.html",
-    "revision": "7312506ec1b7683f3ce286380246bf11"
+    "revision": "d0c64eaed64faa19fff025dbbe775319"
   },
   {
     "url": "chemistry/plus.html",
-    "revision": "5cdd071701435c50b9826372a3aad302"
+    "revision": "8d7ba5f7af27ee6fa1f64d2e928feb72"
   },
   {
     "url": "chemistry/polysaccharide.html",
-    "revision": "c1d4dfe304fac6b08262cbbc7f6694d0"
+    "revision": "4fba653bfde9ad138bf188b670f3f4b2"
   },
   {
     "url": "chemistry/protein.html",
-    "revision": "84a3af073041332e8951e0d5aa4036ca"
+    "revision": "ff5eb6e6cef69cb605346bb7f6a74532"
   },
   {
     "url": "chemistry/radical.html",
-    "revision": "5083b86e687c17e3bd6ad83e5f352711"
+    "revision": "bb3776e1027bfc272dba115f9273c568"
   },
   {
     "url": "chemistry/resin.html",
-    "revision": "463cf02bfee030c9dca27d895a2eba16"
+    "revision": "e2abaca45f7f7bfe9f99d89d1cf43848"
   },
   {
     "url": "chemistry/S.html",
-    "revision": "06b7573f75cef36131de5bef0b51a4f2"
+    "revision": "d9aad1f90ce427c1633cffecc4c0a697"
   },
   {
     "url": "chemistry/Si.html",
-    "revision": "bb530fc4e6b183332965821ce79e4c85"
+    "revision": "357aeb573faf18a5977d626296cf552b"
   },
   {
     "url": "chemistry/SnWithPb.html",
-    "revision": "3dc10c830e86f1c49407a7605c7c6de1"
+    "revision": "3c0e5779cd5cbc99a9d27b589bde0975"
   },
   {
     "url": "chemistry/Zn.html",
-    "revision": "a986e8a3395c6dc91646033b8ce73271"
+    "revision": "238100925909a744dfbf1c64ee87def0"
   },
   {
     "url": "index.html",
-    "revision": "4d55db60cc359e793b791bfbadf1517b"
+    "revision": "3bd6011345c42bdfa5cc452732ef5eb6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
