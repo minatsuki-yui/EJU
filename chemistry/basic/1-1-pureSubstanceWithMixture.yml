@@ -24,7 +24,9 @@ meta:
 
 ラジオアイソトープ:
   alias: 放射性同位体
-  phenomenon: 半減期
+  phenomenon: 
+    - 半減期
+    - 壊変
 
 同素体:
   desc: 同元素不同结构的単体

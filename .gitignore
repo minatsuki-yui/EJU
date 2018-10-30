@@ -4,6 +4,7 @@ _chemistry_book
 _book
 test.json
 test.txt
+test.py
 docs/basic
 docs/chemistry
 # docs/.vuepress/dist

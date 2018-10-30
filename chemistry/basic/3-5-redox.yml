@@ -2,6 +2,9 @@ meta:
   title: 酸化還元
   type: basics
 
+王水:
+  is: HCl～HNO3 = 3～1
+
 還元剤:
   is:
     - Na

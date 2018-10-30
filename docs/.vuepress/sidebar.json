@@ -30,6 +30,10 @@
     ],
     "/chemistry/": [
         {
+            "title": "物質の変化",
+            "children": []
+        },
+        {
             "title": "物質の状態",
             "children": [
                 "gas",
@@ -91,6 +95,7 @@
                 "classification",
                 "fiber",
                 "plus",
+                "burn",
                 "monosaccharide",
                 "disaccharide",
                 "polysaccharide",
