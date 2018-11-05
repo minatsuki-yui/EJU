@@ -5,7 +5,4 @@ _book
 test.json
 test.txt
 test.py
-docs/basic
-docs/chemistry
-# docs/.vuepress/dist
 node_modules

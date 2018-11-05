@@ -89,3 +89,12 @@ meta:
   example: ジエチルエーテル
   property:
     - 疏水
+
+メチレン基:
+  desc: R2-CH2-R2
+
+ビニル基:
+  desc: R-CH=CH2
+
+フェニル基:
+  desc: -ベンゼン環

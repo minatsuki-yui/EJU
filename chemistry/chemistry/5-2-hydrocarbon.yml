@@ -45,7 +45,7 @@ meta:
 エチレン:
   formula: C2H4
   production:
-    - C2H5OH -> C2H4 + H2O ···浓硫酸 170°C
+    - C2H5OH -> C2H4 + H2O ···浓硫酸 170°C ～脱離反応,附加反应
   equation:
     - C2H4 + Br2 -> CH2BrCH2Br ～附加反应
     - C2H4 + H2 -> CH3CH3 ···Pt Ni ～附加反应
