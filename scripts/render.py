@@ -72,6 +72,7 @@ class Maker(object):
             # print(f)
             self.current_file = f
             self.make_md(f)
+        os.system(f'echo "# {path_to_files}" > {self.output_dir}README.md')
         os.chdir('..')
 
     def make(self):
