@@ -202,5 +202,5 @@ inspection: 2R-OH +2Na ->  2R-OHNa + H2
 定义: I2 + NaOH -> CHI3
 现象: 特殊臭气 黄色沉淀
 用途:
-  - 检出CH3CRHOH or CH3COR
+  - 检出CH3CRHOH or CH3COR(C or H)
 ```

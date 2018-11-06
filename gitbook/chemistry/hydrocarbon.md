@@ -57,7 +57,7 @@ equations:
 ```yaml
 化学式: C2H4
 产物:
-  - C2H5OH -> C2H4 + H2O ···浓硫酸 170°C
+  - C2H5OH -> C2H4 + H2O ···浓硫酸 170°C ～脱離反応,附加反应
 反应方程:
   - C2H4 + Br2 -> CH2BrCH2Br ～附加反应
   - C2H4 + H2 -> CH3CH3 ···Pt Ni ～附加反应
