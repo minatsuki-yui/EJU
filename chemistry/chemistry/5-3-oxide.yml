@@ -142,4 +142,4 @@ meta:
   desc: I2 + NaOH -> CHI3
   phenomenon: 特殊臭气 黄色沉淀
   usage:
-    - 检出CH3CRHOH or CH3COR
+    - 检出CH3CRHOH or CH3COR(C or H)
