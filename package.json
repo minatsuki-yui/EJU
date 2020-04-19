@@ -5,6 +5,6 @@
     "gen": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^1.2.0"
+    "vuepress": "^1.4.1"
   }
 }
